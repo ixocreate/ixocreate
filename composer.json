@@ -1,0 +1,23 @@
+{
+    "name": "kiwi-suite/kiwi",
+    "description": "kiwi-suite/kiwi",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Thomas Payer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.1",
+        "kiwi-suite/application": "dev-develop",
+        "http-interop/http-middleware": "0.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\": "src/"
+        }
+    }
+}
