@@ -2,4 +2,7 @@
 declare(strict_types=1);
 namespace Application;
 
-/** @var \KiwiSuite\Application\Http\Route\RouteConfigurator $routeConfigurator */
+/** @var \KiwiSuite\ApplicationHttp\Route\RouteConfigurator $routeConfigurator */
+use Application\Action\TestAction;
+
+$routeConfigurator->addGet('/kiwi/', [TestAction::class], "test");

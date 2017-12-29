@@ -12,8 +12,8 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.1",
-        "kiwi-suite/application": "dev-develop",
-        "http-interop/http-middleware": "0.4.1"
+        "kiwi-suite/application-console": "^0",
+        "kiwi-suite/application-http": "dev-develop"
     },
     "autoload": {
         "psr-4": {

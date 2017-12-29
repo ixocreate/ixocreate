@@ -1,26 +1,26 @@
 <?php
 namespace Application\Action;
 
-use Interop\Http\ServerMiddleware\DelegateInterface;
-use Interop\Http\ServerMiddleware\MiddlewareInterface;
+
+use Interop\Http\Server\MiddlewareInterface;
+use Interop\Http\Server\RequestHandlerInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Zend\Diactoros\Response\JsonResponse;
+use Zend\Diactoros\Response\TextResponse;
 
 class TestAction implements MiddlewareInterface
 {
 
+
     /**
      * Process an incoming server request and return a response, optionally delegating
-     * to the next middleware component to create the response.
-     *
+     * response creation to a handler.
      * @param ServerRequestInterface $request
-     * @param DelegateInterface $delegate
-     *
+     * @param RequestHandlerInterface $handler
      * @return ResponseInterface
      */
-    public function process(ServerRequestInterface $request, DelegateInterface $delegate)
+    public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
-        return new JsonResponse("test");
+        return new TextResponse("test");
     }
 }

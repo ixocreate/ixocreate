@@ -3,6 +3,6 @@
 
 (function() {
     require_once 'vendor/autoload.php';
-    $httpApplication = new \KiwiSuite\Application\HttpApplication("bootstrap");
+    $httpApplication = new \KiwiSuite\ApplicationHttp\HttpApplication("bootstrap");
     $httpApplication->run();
 })();
