@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7f64ea5c0daeeb07001bdeb9c1b21fc",
+    "content-hash": "997344eb05b84fa5d9728acd19d2fd5e",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -196,24 +196,26 @@
         },
         {
             "name": "kiwi-suite/application",
-            "version": "0.1.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/application.git",
-                "reference": "ffac606fafb4e3c6465f3e87f20eefd2deae3ca5"
+                "reference": "1e227b325dd61cad83e6b8b205bcce08943d3aa7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/application/zipball/ffac606fafb4e3c6465f3e87f20eefd2deae3ca5",
-                "reference": "ffac606fafb4e3c6465f3e87f20eefd2deae3ca5",
+                "url": "https://api.github.com/repos/kiwi-suite/application/zipball/1e227b325dd61cad83e6b8b205bcce08943d3aa7",
+                "reference": "1e227b325dd61cad83e6b8b205bcce08943d3aa7",
                 "shasum": ""
             },
             "require": {
-                "kiwi-suite/servicemanager": "^0.1",
+                "kiwi-suite/config": "dev-develop",
+                "kiwi-suite/servicemanager": "dev-develop",
                 "php": "^7.1"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.5",
+                "mikey179/vfsstream": "^1.6",
                 "php-coveralls/php-coveralls": "^2.0",
                 "phpunit/phpunit": "^6.0.6"
             },
@@ -233,25 +235,25 @@
                 }
             ],
             "description": "kiwi-suite/application",
-            "time": "2017-12-15T11:50:51+00:00"
+            "time": "2018-01-12T12:16:42+00:00"
         },
         {
             "name": "kiwi-suite/application-console",
-            "version": "0.1.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/application-console.git",
-                "reference": "aa96a40499dac4549dba89ddd230b86828fa26e6"
+                "reference": "ced22f0d4d95c9ff6fd228013337df364698b972"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/application-console/zipball/aa96a40499dac4549dba89ddd230b86828fa26e6",
-                "reference": "aa96a40499dac4549dba89ddd230b86828fa26e6",
+                "url": "https://api.github.com/repos/kiwi-suite/application-console/zipball/ced22f0d4d95c9ff6fd228013337df364698b972",
+                "reference": "ced22f0d4d95c9ff6fd228013337df364698b972",
                 "shasum": ""
             },
             "require": {
-                "kiwi-suite/application": "^0.1.1",
-                "kiwi-suite/config": "^0.1.1",
+                "kiwi-suite/application": "dev-develop",
+                "kiwi-suite/config": "dev-develop",
                 "php": "^7.1",
                 "symfony/console": "^4.0"
             },
@@ -276,7 +278,7 @@
                 }
             ],
             "description": "kiwi-suite/application-console",
-            "time": "2017-12-18T06:02:43+00:00"
+            "time": "2018-01-12T12:19:02+00:00"
         },
         {
             "name": "kiwi-suite/application-http",
@@ -284,17 +286,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/application-http.git",
-                "reference": "b3d137fa31f8de446f0fd5378760a2b1546ade0f"
+                "reference": "ea2d68eba9ab4c430a43bedba4c3d65168946e56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/application-http/zipball/b3d137fa31f8de446f0fd5378760a2b1546ade0f",
-                "reference": "b3d137fa31f8de446f0fd5378760a2b1546ade0f",
+                "url": "https://api.github.com/repos/kiwi-suite/application-http/zipball/ea2d68eba9ab4c430a43bedba4c3d65168946e56",
+                "reference": "ea2d68eba9ab4c430a43bedba4c3d65168946e56",
                 "shasum": ""
             },
             "require": {
-                "kiwi-suite/application": "^0",
-                "kiwi-suite/config": "^0",
+                "kiwi-suite/application": "dev-develop",
+                "kiwi-suite/entity": "dev-develop",
                 "php": "^7.1",
                 "zendframework/zend-expressive": "^3.0.0-dev",
                 "zendframework/zend-expressive-fastroute": "^3.0.0-dev",
@@ -322,20 +324,20 @@
                 }
             ],
             "description": "kiwi-suite/application-http",
-            "time": "2017-12-29T19:59:24+00:00"
+            "time": "2018-01-12T12:20:34+00:00"
         },
         {
             "name": "kiwi-suite/config",
-            "version": "0.1.2",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/config.git",
-                "reference": "730ddc33f87cc829a0bb0b8d5143fae742a796f5"
+                "reference": "414de0bd94c158e8c2434815854fffc0bc6fe741"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/config/zipball/730ddc33f87cc829a0bb0b8d5143fae742a796f5",
-                "reference": "730ddc33f87cc829a0bb0b8d5143fae742a796f5",
+                "url": "https://api.github.com/repos/kiwi-suite/config/zipball/414de0bd94c158e8c2434815854fffc0bc6fe741",
+                "reference": "414de0bd94c158e8c2434815854fffc0bc6fe741",
                 "shasum": ""
             },
             "require": {
@@ -343,7 +345,6 @@
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.5",
-                "kiwi-suite/application": "^0.2",
                 "php-coveralls/php-coveralls": "^2.0",
                 "phpunit/phpunit": "^6.0.6",
                 "zendframework/zend-stdlib": "^3.1"
@@ -364,20 +365,63 @@
                 }
             ],
             "description": "kiwi-suite/config",
-            "time": "2017-12-23T07:20:59+00:00"
+            "time": "2018-01-09T09:23:10+00:00"
         },
         {
-            "name": "kiwi-suite/servicemanager",
-            "version": "0.1.1",
+            "name": "kiwi-suite/entity",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kiwi-suite/servicemanager.git",
-                "reference": "7966671d27a4539f5d477939b8487ec262823cf7"
+                "url": "https://github.com/kiwi-suite/entity.git",
+                "reference": "f8e7fcba73faacfc9c6daab9dd501d7aa09a801a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/servicemanager/zipball/7966671d27a4539f5d477939b8487ec262823cf7",
-                "reference": "7966671d27a4539f5d477939b8487ec262823cf7",
+                "url": "https://api.github.com/repos/kiwi-suite/entity/zipball/f8e7fcba73faacfc9c6daab9dd501d7aa09a801a",
+                "reference": "f8e7fcba73faacfc9c6daab9dd501d7aa09a801a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "zendframework/zend-filter": "^2.7"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "kiwi-suite/application": "^0",
+                "kiwi-suite/servicemanager": "^0",
+                "php-coveralls/php-coveralls": "^2.0",
+                "phpunit/phpunit": "^6.0.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "KiwiSuite\\Entity\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Payer"
+                }
+            ],
+            "description": "kiwi-suite/entity is a library for entities and collections",
+            "time": "2018-01-09T15:28:47+00:00"
+        },
+        {
+            "name": "kiwi-suite/servicemanager",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kiwi-suite/servicemanager.git",
+                "reference": "ed23f02b1a075450e7e6663d582949e7f3b3be8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kiwi-suite/servicemanager/zipball/ed23f02b1a075450e7e6663d582949e7f3b3be8b",
+                "reference": "ed23f02b1a075450e7e6663d582949e7f3b3be8b",
                 "shasum": ""
             },
             "require": {
@@ -408,7 +452,7 @@
                 }
             ],
             "description": "kiwi-suite/servicemanager is a psr-11 container library",
-            "time": "2017-12-18T05:41:43+00:00"
+            "time": "2018-01-04T09:10:45+00:00"
         },
         {
             "name": "league/plates",
@@ -727,16 +771,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.0.2",
+            "version": "v4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "de8cf039eacdec59d83f7def67e3b8ff5ed46714"
+                "reference": "fe0e69d7162cba0885791cf7eea5f0d7bc0f897e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/de8cf039eacdec59d83f7def67e3b8ff5ed46714",
-                "reference": "de8cf039eacdec59d83f7def67e3b8ff5ed46714",
+                "url": "https://api.github.com/repos/symfony/console/zipball/fe0e69d7162cba0885791cf7eea5f0d7bc0f897e",
+                "reference": "fe0e69d7162cba0885791cf7eea5f0d7bc0f897e",
                 "shasum": ""
             },
             "require": {
@@ -791,7 +835,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-14T19:48:22+00:00"
+            "time": "2018-01-03T07:38:00+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -970,16 +1014,16 @@
         },
         {
             "name": "zendframework/zend-diactoros",
-            "version": "1.6.1",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "c8664b92a6d5bc229e48b0923486c097e45a7877"
+                "reference": "ed6ce7e2105c400ca10277643a8327957c0384b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/c8664b92a6d5bc229e48b0923486c097e45a7877",
-                "reference": "c8664b92a6d5bc229e48b0923486c097e45a7877",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/ed6ce7e2105c400ca10277643a8327957c0384b7",
+                "reference": "ed6ce7e2105c400ca10277643a8327957c0384b7",
                 "shasum": ""
             },
             "require": {
@@ -998,8 +1042,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev",
-                    "dev-develop": "1.7-dev"
+                    "dev-master": "1.7.x-dev",
+                    "dev-develop": "1.8.x-dev"
                 }
             },
             "autoload": {
@@ -1018,7 +1062,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2017-10-12T15:24:51+00:00"
+            "time": "2018-01-04T18:21:48+00:00"
         },
         {
             "name": "zendframework/zend-escaper",
@@ -1509,6 +1553,66 @@
             "time": "2017-12-14T15:34:27+00:00"
         },
         {
+            "name": "zendframework/zend-filter",
+            "version": "2.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-filter.git",
+                "reference": "b8d0ff872f126631bf63a932e33aa2d22d467175"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zend-filter/zipball/b8d0ff872f126631bf63a932e33aa2d22d467175",
+                "reference": "b8d0ff872f126631bf63a932e33aa2d22d467175",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5 || ^7.0",
+                "zendframework/zend-stdlib": "^2.7 || ^3.0"
+            },
+            "require-dev": {
+                "pear/archive_tar": "^1.4",
+                "phpunit/phpunit": "^6.0.10 || ^5.7.17",
+                "zendframework/zend-coding-standard": "~1.0.0",
+                "zendframework/zend-crypt": "^2.6 || ^3.0",
+                "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3",
+                "zendframework/zend-uri": "^2.5"
+            },
+            "suggest": {
+                "zendframework/zend-crypt": "Zend\\Crypt component, for encryption filters",
+                "zendframework/zend-i18n": "Zend\\I18n component for filters depending on i18n functionality",
+                "zendframework/zend-servicemanager": "Zend\\ServiceManager component, for using the filter chain functionality",
+                "zendframework/zend-uri": "Zend\\Uri component, for the UriNormalize filter"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev",
+                    "dev-develop": "2.8-dev"
+                },
+                "zf": {
+                    "component": "Zend\\Filter",
+                    "config-provider": "Zend\\Filter\\ConfigProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\Filter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "provides a set of commonly needed data filters",
+            "homepage": "https://github.com/zendframework/zend-filter",
+            "keywords": [
+                "filter",
+                "zf2"
+            ],
+            "time": "2017-05-17T20:56:17+00:00"
+        },
+        {
             "name": "zendframework/zend-servicemanager",
             "version": "3.3.1",
             "source": {
@@ -1618,16 +1722,16 @@
         },
         {
             "name": "zendframework/zend-stratigility",
-            "version": "dev-release-3.0.0",
+            "version": "3.0.0alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stratigility.git",
-                "reference": "a27cd099239e97f79d2adae5be7cbd62cda2a592"
+                "reference": "6e09063cc8b1655177eab8ab1e4f62105c96cf38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stratigility/zipball/a27cd099239e97f79d2adae5be7cbd62cda2a592",
-                "reference": "a27cd099239e97f79d2adae5be7cbd62cda2a592",
+                "url": "https://api.github.com/repos/zendframework/zend-stratigility/zipball/6e09063cc8b1655177eab8ab1e4f62105c96cf38",
+                "reference": "6e09063cc8b1655177eab8ab1e4f62105c96cf38",
                 "shasum": ""
             },
             "require": {
@@ -1671,7 +1775,7 @@
                 "psr-7",
                 "zf"
             ],
-            "time": "2017-12-05T19:16:17+00:00"
+            "time": "2018-01-10T16:48:17+00:00"
         }
     ],
     "packages-dev": [
@@ -1915,16 +2019,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v2.9.0",
+            "version": "v2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "454ddbe65da6a9297446f442bad244e8a99a9a38"
+                "reference": "513a3765b56dd029175f9f32995566657ee89dda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/454ddbe65da6a9297446f442bad244e8a99a9a38",
-                "reference": "454ddbe65da6a9297446f442bad244e8a99a9a38",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/513a3765b56dd029175f9f32995566657ee89dda",
+                "reference": "513a3765b56dd029175f9f32995566657ee89dda",
                 "shasum": ""
             },
             "require": {
@@ -1951,10 +2055,12 @@
             "require-dev": {
                 "johnkary/phpunit-speedtrap": "^1.1 || ^2.0@dev",
                 "justinrainbow/json-schema": "^5.0",
+                "keradus/cli-executor": "^1.0",
                 "mikey179/vfsstream": "^1.6",
                 "php-coveralls/php-coveralls": "^2.0",
                 "php-cs-fixer/accessible-object": "^1.0",
                 "phpunit/phpunit": "^5.7.23 || ^6.4.3",
+                "phpunitgoodpractices/traits": "^1.0",
                 "symfony/phpunit-bridge": "^3.2.2 || ^4.0"
             },
             "suggest": {
@@ -1965,16 +2071,22 @@
                 "php-cs-fixer"
             ],
             "type": "application",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.10-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "PhpCsFixer\\": "src/"
                 },
                 "classmap": [
-                    "tests/Test/Assert/AssertTokensTrait.php",
                     "tests/Test/AbstractFixerTestCase.php",
                     "tests/Test/AbstractIntegrationTestCase.php",
+                    "tests/Test/Assert/AssertTokensTrait.php",
                     "tests/Test/IntegrationCase.php",
-                    "tests/Test/IntegrationCaseFactory.php"
+                    "tests/Test/IntegrationCaseFactory.php",
+                    "tests/TestCase.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1992,7 +2104,7 @@
                 }
             ],
             "description": "A tool to automatically fix PHP code style",
-            "time": "2017-12-08T16:36:20+00:00"
+            "time": "2018-01-10T17:16:15+00:00"
         },
         {
             "name": "gecko-packages/gecko-php-unit",
@@ -2836,16 +2948,16 @@
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "5.0.5",
+            "version": "5.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "283b9f4f670e3a6fd6c4ff95c51a952eb5c75933"
+                "reference": "33fd41a76e746b8fa96d00b49a23dadfa8334cdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/283b9f4f670e3a6fd6c4ff95c51a952eb5c75933",
-                "reference": "283b9f4f670e3a6fd6c4ff95c51a952eb5c75933",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/33fd41a76e746b8fa96d00b49a23dadfa8334cdf",
+                "reference": "33fd41a76e746b8fa96d00b49a23dadfa8334cdf",
                 "shasum": ""
             },
             "require": {
@@ -2891,7 +3003,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2017-12-10T08:01:53+00:00"
+            "time": "2018-01-06T05:45:45+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -2940,16 +3052,16 @@
         },
         {
             "name": "sebastian/comparator",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "b11c729f95109b56a0fe9650c6a63a0fcd8c439f"
+                "reference": "11c07feade1d65453e06df3b3b90171d6d982087"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/b11c729f95109b56a0fe9650c6a63a0fcd8c439f",
-                "reference": "b11c729f95109b56a0fe9650c6a63a0fcd8c439f",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/11c07feade1d65453e06df3b3b90171d6d982087",
+                "reference": "11c07feade1d65453e06df3b3b90171d6d982087",
                 "shasum": ""
             },
             "require": {
@@ -3000,7 +3112,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2017-12-22T14:50:35+00:00"
+            "time": "2018-01-12T06:34:42+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -3454,16 +3566,16 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v4.0.2",
+            "version": "v4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "d4face19ed8002eec8280bc1c5ec18130472bf43"
+                "reference": "74d33aac36208c4d6757807d9f598f0133a3a4eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/d4face19ed8002eec8280bc1c5ec18130472bf43",
-                "reference": "d4face19ed8002eec8280bc1c5ec18130472bf43",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/74d33aac36208c4d6757807d9f598f0133a3a4eb",
+                "reference": "74d33aac36208c4d6757807d9f598f0133a3a4eb",
                 "shasum": ""
             },
             "require": {
@@ -3513,20 +3625,20 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-14T19:48:22+00:00"
+            "time": "2018-01-03T07:38:00+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.0.2",
+            "version": "v4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "8c2868641d0c4885eee9c12a89c2b695eb1985cd"
+                "reference": "760e47a4ee64b4c48f4b30017011e09d4c0f05ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/8c2868641d0c4885eee9c12a89c2b695eb1985cd",
-                "reference": "8c2868641d0c4885eee9c12a89c2b695eb1985cd",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/760e47a4ee64b4c48f4b30017011e09d4c0f05ed",
+                "reference": "760e47a4ee64b4c48f4b30017011e09d4c0f05ed",
                 "shasum": ""
             },
             "require": {
@@ -3562,20 +3674,20 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-14T19:48:22+00:00"
+            "time": "2018-01-03T07:38:00+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v4.0.2",
+            "version": "v4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "c9cdda4dc4a3182d8d6daeebce4a25fef078ea4c"
+                "reference": "8b08180f2b7ccb41062366b9ad91fbc4f1af8601"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/c9cdda4dc4a3182d8d6daeebce4a25fef078ea4c",
-                "reference": "c9cdda4dc4a3182d8d6daeebce4a25fef078ea4c",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/8b08180f2b7ccb41062366b9ad91fbc4f1af8601",
+                "reference": "8b08180f2b7ccb41062366b9ad91fbc4f1af8601",
                 "shasum": ""
             },
             "require": {
@@ -3611,20 +3723,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-07T14:45:01+00:00"
+            "time": "2018-01-03T07:38:00+00:00"
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v4.0.2",
+            "version": "v4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "75fdda335eb0adbd464089e8a0184c61097808e0"
+                "reference": "30d9240b30696a69e893534c9fc4a5c72ab6689b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/75fdda335eb0adbd464089e8a0184c61097808e0",
-                "reference": "75fdda335eb0adbd464089e8a0184c61097808e0",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/30d9240b30696a69e893534c9fc4a5c72ab6689b",
+                "reference": "30d9240b30696a69e893534c9fc4a5c72ab6689b",
                 "shasum": ""
             },
             "require": {
@@ -3665,7 +3777,7 @@
                 "configuration",
                 "options"
             ],
-            "time": "2017-12-14T19:48:22+00:00"
+            "time": "2018-01-03T07:38:00+00:00"
         },
         {
             "name": "symfony/polyfill-php70",
@@ -3783,16 +3895,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.0.2",
+            "version": "v4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "18d1953068e72262830bad593f0366fa62c93fb7"
+                "reference": "2145b3e8137e463b1051b79440a59b38220944f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/18d1953068e72262830bad593f0366fa62c93fb7",
-                "reference": "18d1953068e72262830bad593f0366fa62c93fb7",
+                "url": "https://api.github.com/repos/symfony/process/zipball/2145b3e8137e463b1051b79440a59b38220944f0",
+                "reference": "2145b3e8137e463b1051b79440a59b38220944f0",
                 "shasum": ""
             },
             "require": {
@@ -3828,20 +3940,20 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-14T19:48:22+00:00"
+            "time": "2018-01-03T07:38:00+00:00"
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v4.0.2",
+            "version": "v4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stopwatch.git",
-                "reference": "ac0e49150555c703fef6b696d8eaba1db7a3ca03"
+                "reference": "d52321f0e2b596bd03b5d1dd6eebe71caa925704"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/ac0e49150555c703fef6b696d8eaba1db7a3ca03",
-                "reference": "ac0e49150555c703fef6b696d8eaba1db7a3ca03",
+                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/d52321f0e2b596bd03b5d1dd6eebe71caa925704",
+                "reference": "d52321f0e2b596bd03b5d1dd6eebe71caa925704",
                 "shasum": ""
             },
             "require": {
@@ -3877,7 +3989,7 @@
             ],
             "description": "Symfony Stopwatch Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-09T12:45:29+00:00"
+            "time": "2018-01-03T07:38:00+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -3973,6 +4085,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "kiwi-suite/application-console": 20,
         "kiwi-suite/application-http": 20
     },
     "prefer-stable": true,

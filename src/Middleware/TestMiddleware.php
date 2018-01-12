@@ -1,5 +1,5 @@
 <?php
-namespace Application\Action;
+namespace Application\Middleware;
 
 
 use Interop\Http\Server\MiddlewareInterface;
@@ -9,7 +9,7 @@ use Psr\Http\Message\ServerRequestInterface;
 use Zend\Diactoros\Response\JsonResponse;
 use Zend\Diactoros\Response\TextResponse;
 
-class TestAction implements MiddlewareInterface
+class TestMiddleware implements MiddlewareInterface
 {
 
 
@@ -22,6 +22,6 @@ class TestAction implements MiddlewareInterface
      */
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
-        return new JsonResponse("test");
+        return $handler->handle($request);
     }
 }

@@ -2,5 +2,7 @@
 declare(strict_types=1);
 namespace Application;
 
+use Application\Middleware\TestMiddleware;
+
 /** @var \KiwiSuite\ApplicationHttp\Pipe\PipeConfigurator $pipeConfigurator */
-use Application\Action\TestAction;
+$pipeConfigurator->addGlobalMidPipe(TestMiddleware::class);

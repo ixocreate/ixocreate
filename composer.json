@@ -15,7 +15,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.1",
-        "kiwi-suite/application-console": "^0",
+        "kiwi-suite/application-console": "dev-develop",
         "kiwi-suite/application-http": "dev-develop"
     },
     "require-dev": {
