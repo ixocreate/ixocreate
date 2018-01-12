@@ -243,12 +243,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/admin-frontend.git",
-                "reference": "19341b5bb1cb093795076ef0c9d1e2881aea9d73"
+                "reference": "9ecfcaa2b89a57bb1ac6b07d057902574cad2081"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/admin-frontend/zipball/19341b5bb1cb093795076ef0c9d1e2881aea9d73",
-                "reference": "19341b5bb1cb093795076ef0c9d1e2881aea9d73",
+                "url": "https://api.github.com/repos/kiwi-suite/admin-frontend/zipball/9ecfcaa2b89a57bb1ac6b07d057902574cad2081",
+                "reference": "9ecfcaa2b89a57bb1ac6b07d057902574cad2081",
                 "shasum": ""
             },
             "type": "project",
@@ -262,7 +262,7 @@
                 }
             ],
             "description": "Kiwi Admin Application",
-            "time": "2018-01-12T13:22:09+00:00"
+            "time": "2018-01-12T16:12:41+00:00"
         },
         {
             "name": "kiwi-suite/application",
