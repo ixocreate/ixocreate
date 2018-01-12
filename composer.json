@@ -9,6 +9,9 @@
         },
         {
             "name": "Bernhard Efler"
+        },
+        {
+            "name": "Lucas Seinfeld (luchaos)"
         }
     ],
     "minimum-stability": "dev",
@@ -16,7 +19,8 @@
     "require": {
         "php": "^7.1",
         "kiwi-suite/application-console": "dev-develop",
-        "kiwi-suite/application-http": "dev-develop"
+        "kiwi-suite/application-http": "dev-develop",
+        "kiwi-suite/admin-backend": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.0.6",

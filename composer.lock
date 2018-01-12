@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "997344eb05b84fa5d9728acd19d2fd5e",
+    "content-hash": "0045cd40dfc6adfce3c43272dd9ad299",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -195,6 +195,76 @@
             "time": "2017-11-09T21:42:30+00:00"
         },
         {
+            "name": "kiwi-suite/admin-backend",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kiwi-suite/admin-backend.git",
+                "reference": "cbf57ace03bce18f0767a7600cfefb99188c04d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kiwi-suite/admin-backend/zipball/cbf57ace03bce18f0767a7600cfefb99188c04d7",
+                "reference": "cbf57ace03bce18f0767a7600cfefb99188c04d7",
+                "shasum": ""
+            },
+            "require": {
+                "kiwi-suite/admin-frontend": "dev-develop",
+                "kiwi-suite/application": "dev-develop",
+                "kiwi-suite/servicemanager": "dev-develop",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "php-coveralls/php-coveralls": "^2.0",
+                "phpunit/phpunit": "^6.0.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "KiwiSuite\\Admin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lucas Seinfeld (luchaos)"
+                }
+            ],
+            "description": "Kiwi Admin API module",
+            "time": "2018-01-12T13:21:17+00:00"
+        },
+        {
+            "name": "kiwi-suite/admin-frontend",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kiwi-suite/admin-frontend.git",
+                "reference": "19341b5bb1cb093795076ef0c9d1e2881aea9d73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kiwi-suite/admin-frontend/zipball/19341b5bb1cb093795076ef0c9d1e2881aea9d73",
+                "reference": "19341b5bb1cb093795076ef0c9d1e2881aea9d73",
+                "shasum": ""
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lucas Seinfeld (luchaos)"
+                }
+            ],
+            "description": "Kiwi Admin Application",
+            "time": "2018-01-12T13:22:09+00:00"
+        },
+        {
             "name": "kiwi-suite/application",
             "version": "dev-develop",
             "source": {
@@ -373,12 +443,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/entity.git",
-                "reference": "f8e7fcba73faacfc9c6daab9dd501d7aa09a801a"
+                "reference": "6a36f5dacba07df3d7163b2e3606554de96c7641"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/entity/zipball/f8e7fcba73faacfc9c6daab9dd501d7aa09a801a",
-                "reference": "f8e7fcba73faacfc9c6daab9dd501d7aa09a801a",
+                "url": "https://api.github.com/repos/kiwi-suite/entity/zipball/6a36f5dacba07df3d7163b2e3606554de96c7641",
+                "reference": "6a36f5dacba07df3d7163b2e3606554de96c7641",
                 "shasum": ""
             },
             "require": {
@@ -387,8 +457,8 @@
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.0",
-                "kiwi-suite/application": "^0",
-                "kiwi-suite/servicemanager": "^0",
+                "kiwi-suite/application": "dev-develop",
+                "kiwi-suite/servicemanager": "dev-develop",
                 "php-coveralls/php-coveralls": "^2.0",
                 "phpunit/phpunit": "^6.0.6"
             },
@@ -408,7 +478,7 @@
                 }
             ],
             "description": "kiwi-suite/entity is a library for entities and collections",
-            "time": "2018-01-09T15:28:47+00:00"
+            "time": "2018-01-12T12:21:58+00:00"
         },
         {
             "name": "kiwi-suite/servicemanager",
@@ -4086,7 +4156,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "kiwi-suite/application-console": 20,
-        "kiwi-suite/application-http": 20
+        "kiwi-suite/application-http": 20,
+        "kiwi-suite/admin-backend": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
