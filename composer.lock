@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0045cd40dfc6adfce3c43272dd9ad299",
+    "content-hash": "578348c521352d538c587fcbe2b13672",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -195,17 +195,17 @@
             "time": "2017-11-09T21:42:30+00:00"
         },
         {
-            "name": "kiwi-suite/admin-backend",
-            "version": "dev-master",
+            "name": "kiwi-suite/admin",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kiwi-suite/admin-backend.git",
-                "reference": "cbf57ace03bce18f0767a7600cfefb99188c04d7"
+                "url": "https://github.com/kiwi-suite/admin.git",
+                "reference": "24a20339498664ec9abc7da078a08c65344a5466"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/admin-backend/zipball/cbf57ace03bce18f0767a7600cfefb99188c04d7",
-                "reference": "cbf57ace03bce18f0767a7600cfefb99188c04d7",
+                "url": "https://api.github.com/repos/kiwi-suite/admin/zipball/24a20339498664ec9abc7da078a08c65344a5466",
+                "reference": "24a20339498664ec9abc7da078a08c65344a5466",
                 "shasum": ""
             },
             "require": {
@@ -234,8 +234,8 @@
                     "name": "Lucas Seinfeld (luchaos)"
                 }
             ],
-            "description": "Kiwi Admin API module",
-            "time": "2018-01-12T13:21:17+00:00"
+            "description": "Kiwi Admin",
+            "time": "2018-01-12T14:39:43+00:00"
         },
         {
             "name": "kiwi-suite/admin-frontend",
@@ -4157,7 +4157,7 @@
     "stability-flags": {
         "kiwi-suite/application-console": 20,
         "kiwi-suite/application-http": 20,
-        "kiwi-suite/admin-backend": 20
+        "kiwi-suite/admin": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
