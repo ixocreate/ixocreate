@@ -13,4 +13,4 @@ $routeConfigurator->addGet('/admin[/[{path}]]', [\KiwiSuite\Admin\Action\IndexAc
 /**
  * application routes
  */
-$routeConfigurator->addGet('/kiwi[/]', [\Application\Action\TestAction::class], "test");
+//$routeConfigurator->addGet('/kiwi[/]', [\Application\Action\MyAction::class], "my.action");
