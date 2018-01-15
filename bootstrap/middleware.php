@@ -8,8 +8,8 @@ namespace Application;
 /**
  * app middlewares
  */
-$middlewareConfigurator->addDirectory('src/Action');
-$middlewareConfigurator->addDirectory('src/Middleware');
+//$middlewareConfigurator->addDirectory('src/Action');
+//$middlewareConfigurator->addDirectory('src/Middleware');
 
 /**
  * admin middlewares
