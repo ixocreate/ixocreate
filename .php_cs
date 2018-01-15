@@ -40,6 +40,7 @@ return PhpCsFixer\Config::create()
         'psr4'                              => true,
         'random_api_migration'              => true,
         'short_scalar_cast'                 => true,
+        'single_blank_line_before_namespace'=> true,
         'standardize_not_equals'            => true,
         'trailing_comma_in_multiline_array' => true,
         'declare_strict_types'              => true,
@@ -47,6 +48,7 @@ return PhpCsFixer\Config::create()
     ])
     ->setFinder(
         PhpCsFixer\Finder::create()
+            ->in('bootstrap')
             ->in('src')
             ->in('tests')
     )

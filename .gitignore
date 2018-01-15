@@ -7,4 +7,5 @@ nbproject
 .project
 .settings
 .php_cs.cache
-/vendor
+/public/assets/
+/vendor/
