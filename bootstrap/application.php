@@ -5,3 +5,8 @@ namespace Application;
 
 /** @var \KiwiSuite\Application\ApplicationConfigurator $applicationConfigurator */
 $applicationConfigurator->setDevelopment(true);
+
+/**
+ * admin
+ */
+$applicationConfigurator->addModule(\KiwiSuite\Admin\Module::class);
