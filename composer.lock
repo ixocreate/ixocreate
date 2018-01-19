@@ -812,12 +812,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/admin.git",
-                "reference": "83773e93171651d79c73ada3d0ce7e59918dda24"
+                "reference": "63134d029c33b25a238359b8012adf283481ef5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/admin/zipball/83773e93171651d79c73ada3d0ce7e59918dda24",
-                "reference": "83773e93171651d79c73ada3d0ce7e59918dda24",
+                "url": "https://api.github.com/repos/kiwi-suite/admin/zipball/63134d029c33b25a238359b8012adf283481ef5a",
+                "reference": "63134d029c33b25a238359b8012adf283481ef5a",
                 "shasum": ""
             },
             "require": {
@@ -849,7 +849,7 @@
                 }
             ],
             "description": "Kiwi Admin",
-            "time": "2018-01-18T23:37:50+00:00"
+            "time": "2018-01-19T06:37:17+00:00"
         },
         {
             "name": "kiwi-suite/admin-frontend",
@@ -971,18 +971,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/application-http.git",
-                "reference": "1e5fea05a13e8b384f4553fd746673b8238141ee"
+                "reference": "84f400474cad0d9506a7ea1b90c53361f12f8749"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/application-http/zipball/1e5fea05a13e8b384f4553fd746673b8238141ee",
-                "reference": "1e5fea05a13e8b384f4553fd746673b8238141ee",
+                "url": "https://api.github.com/repos/kiwi-suite/application-http/zipball/84f400474cad0d9506a7ea1b90c53361f12f8749",
+                "reference": "84f400474cad0d9506a7ea1b90c53361f12f8749",
                 "shasum": ""
             },
             "require": {
                 "kiwi-suite/application": "dev-develop",
                 "kiwi-suite/database": "dev-develop",
                 "kiwi-suite/entity": "dev-develop",
+                "kiwi-suite/project-uri": "dev-develop",
                 "php": "^7.1",
                 "zendframework/zend-expressive": "^3.0.0-dev",
                 "zendframework/zend-expressive-fastroute": "^3.0.0-dev",
@@ -1010,7 +1011,7 @@
                 }
             ],
             "description": "kiwi-suite/application-http",
-            "time": "2018-01-15T11:13:23+00:00"
+            "time": "2018-01-19T06:35:46+00:00"
         },
         {
             "name": "kiwi-suite/config",
@@ -1141,17 +1142,60 @@
             "time": "2018-01-12T12:21:58+00:00"
         },
         {
+            "name": "kiwi-suite/project-uri",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kiwi-suite/project-uri.git",
+                "reference": "7b3ac04351b0bb62a15c1b229c9c03ec9f9b8502"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kiwi-suite/project-uri/zipball/7b3ac04351b0bb62a15c1b229c9c03ec9f9b8502",
+                "reference": "7b3ac04351b0bb62a15c1b229c9c03ec9f9b8502",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.5",
+                "http-interop/http-server-middleware": "^1.0",
+                "kiwi-suite/application": "dev-develop",
+                "phpunit/phpunit": "^6.0.6",
+                "zendframework/zend-diactoros": "^1.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "KiwiSuite\\ProjectUri\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Payer"
+                }
+            ],
+            "description": "kiwi-suite/project-uri",
+            "time": "2018-01-18T23:11:07+00:00"
+        },
+        {
             "name": "kiwi-suite/servicemanager",
             "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/servicemanager.git",
-                "reference": "f575077b9de5c3e630993ed450326ffe63abbfd6"
+                "reference": "1b09c139f131ee4eb70b0a4e11e62af904a1c442"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/servicemanager/zipball/f575077b9de5c3e630993ed450326ffe63abbfd6",
-                "reference": "f575077b9de5c3e630993ed450326ffe63abbfd6",
+                "url": "https://api.github.com/repos/kiwi-suite/servicemanager/zipball/1b09c139f131ee4eb70b0a4e11e62af904a1c442",
+                "reference": "1b09c139f131ee4eb70b0a4e11e62af904a1c442",
                 "shasum": ""
             },
             "require": {
@@ -1182,7 +1226,7 @@
                 }
             ],
             "description": "kiwi-suite/servicemanager is a psr-11 container library",
-            "time": "2018-01-15T16:10:14+00:00"
+            "time": "2018-01-19T06:13:59+00:00"
         },
         {
             "name": "league/plates",

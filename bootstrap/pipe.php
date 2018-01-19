@@ -4,8 +4,6 @@ declare(strict_types=1);
 namespace Application;
 
 /** @var \KiwiSuite\ApplicationHttp\Pipe\PipeConfigurator $pipeConfigurator */
+use KiwiSuite\Admin\Middleware\AdminMiddleware;
 
-/**
- * application pipes
- */
-//$pipeConfigurator->addGlobalMidPipe(\Application\Middleware\MyMiddleware::class);
+$pipeConfigurator->addPathMiddleware('/admin', AdminMiddleware::class, PHP_INT_MAX);
