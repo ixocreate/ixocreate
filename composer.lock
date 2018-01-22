@@ -910,12 +910,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/admin.git",
-                "reference": "7e70dda29de77aadc737083efbe2b29af3b71df6"
+                "reference": "1770f1f5ab92d6dc9d61c9738ea8c6757869f597"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/admin/zipball/7e70dda29de77aadc737083efbe2b29af3b71df6",
-                "reference": "7e70dda29de77aadc737083efbe2b29af3b71df6",
+                "url": "https://api.github.com/repos/kiwi-suite/admin/zipball/1770f1f5ab92d6dc9d61c9738ea8c6757869f597",
+                "reference": "1770f1f5ab92d6dc9d61c9738ea8c6757869f597",
                 "shasum": ""
             },
             "require": {
@@ -954,7 +954,7 @@
                 }
             ],
             "description": "Kiwi Admin",
-            "time": "2018-01-20T13:44:22+00:00"
+            "time": "2018-01-22T15:09:47+00:00"
         },
         {
             "name": "kiwi-suite/admin-frontend",
@@ -1076,12 +1076,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/application-http.git",
-                "reference": "557a47f0fe71e86b418fa4e3d74af956fa5d1d27"
+                "reference": "590b39305ff759a3b2d206692d5e92d66387fc7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/application-http/zipball/557a47f0fe71e86b418fa4e3d74af956fa5d1d27",
-                "reference": "557a47f0fe71e86b418fa4e3d74af956fa5d1d27",
+                "url": "https://api.github.com/repos/kiwi-suite/application-http/zipball/590b39305ff759a3b2d206692d5e92d66387fc7f",
+                "reference": "590b39305ff759a3b2d206692d5e92d66387fc7f",
                 "shasum": ""
             },
             "require": {
@@ -1116,7 +1116,7 @@
                 }
             ],
             "description": "kiwi-suite/application-http",
-            "time": "2018-01-20T05:37:51+00:00"
+            "time": "2018-01-22T15:07:12+00:00"
         },
         {
             "name": "kiwi-suite/config",
@@ -1252,12 +1252,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/project-uri.git",
-                "reference": "1b9677cfe3557dddd90efa559dbf75ad342c4ff7"
+                "reference": "37eb07c49353afe88683ee6a4aeac7458d7cf0a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/project-uri/zipball/1b9677cfe3557dddd90efa559dbf75ad342c4ff7",
-                "reference": "1b9677cfe3557dddd90efa559dbf75ad342c4ff7",
+                "url": "https://api.github.com/repos/kiwi-suite/project-uri/zipball/37eb07c49353afe88683ee6a4aeac7458d7cf0a5",
+                "reference": "37eb07c49353afe88683ee6a4aeac7458d7cf0a5",
                 "shasum": ""
             },
             "require": {
@@ -1287,7 +1287,7 @@
                 }
             ],
             "description": "kiwi-suite/project-uri",
-            "time": "2018-01-19T06:38:01+00:00"
+            "time": "2018-01-22T12:12:41+00:00"
         },
         {
             "name": "kiwi-suite/servicemanager",
