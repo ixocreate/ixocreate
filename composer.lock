@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "032aa274d7b2dd947165ccc9257f5ad3",
+    "content-hash": "3be24266650944402eb562cd51312bc7",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -847,6 +847,7 @@
                 "response",
                 "server"
             ],
+            "abandoned": "psr/http-server-handler",
             "time": "2017-11-09T18:35:22+00:00"
         },
         {
@@ -902,6 +903,7 @@
                 "request",
                 "response"
             ],
+            "abandoned": "psr/http-server-middleware",
             "time": "2017-11-09T21:42:30+00:00"
         },
         {
@@ -910,12 +912,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/admin.git",
-                "reference": "1770f1f5ab92d6dc9d61c9738ea8c6757869f597"
+                "reference": "2aa03e7370f71f1c919e7f70db3e260dd3530104"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/admin/zipball/1770f1f5ab92d6dc9d61c9738ea8c6757869f597",
-                "reference": "1770f1f5ab92d6dc9d61c9738ea8c6757869f597",
+                "url": "https://api.github.com/repos/kiwi-suite/admin/zipball/2aa03e7370f71f1c919e7f70db3e260dd3530104",
+                "reference": "2aa03e7370f71f1c919e7f70db3e260dd3530104",
                 "shasum": ""
             },
             "require": {
@@ -954,7 +956,7 @@
                 }
             ],
             "description": "Kiwi Admin",
-            "time": "2018-01-22T15:09:47+00:00"
+            "time": "2018-01-23T00:13:45+00:00"
         },
         {
             "name": "kiwi-suite/admin-frontend",
@@ -962,12 +964,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/admin-frontend.git",
-                "reference": "5f0a8a1b38862a30406169459588dc67a9c36ab4"
+                "reference": "f7a9a88e9e1fbdd1cb7e4df23dd3f8fd58d1d921"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/admin-frontend/zipball/5f0a8a1b38862a30406169459588dc67a9c36ab4",
-                "reference": "5f0a8a1b38862a30406169459588dc67a9c36ab4",
+                "url": "https://api.github.com/repos/kiwi-suite/admin-frontend/zipball/f7a9a88e9e1fbdd1cb7e4df23dd3f8fd58d1d921",
+                "reference": "f7a9a88e9e1fbdd1cb7e4df23dd3f8fd58d1d921",
                 "shasum": ""
             },
             "type": "project",
@@ -981,7 +983,7 @@
                 }
             ],
             "description": "Kiwi Admin Application",
-            "time": "2018-01-16T07:58:20+00:00"
+            "time": "2018-01-23T00:30:17+00:00"
         },
         {
             "name": "kiwi-suite/application",
@@ -2219,12 +2221,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-expressive.git",
-                "reference": "78939aebeb6aeff63616a7901bd7ee89eaee2f04"
+                "reference": "7ccf1b03e5d0a21c811025c5a4186dbdd1801b02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-expressive/zipball/78939aebeb6aeff63616a7901bd7ee89eaee2f04",
-                "reference": "78939aebeb6aeff63616a7901bd7ee89eaee2f04",
+                "url": "https://api.github.com/repos/zendframework/zend-expressive/zipball/7ccf1b03e5d0a21c811025c5a4186dbdd1801b02",
+                "reference": "7ccf1b03e5d0a21c811025c5a4186dbdd1801b02",
                 "shasum": ""
             },
             "require": {
@@ -2292,7 +2294,7 @@
                 "zend-expressive",
                 "zf"
             ],
-            "time": "2018-01-17T17:52:59+00:00"
+            "time": "2018-01-22T18:05:16+00:00"
         },
         {
             "name": "zendframework/zend-expressive-fastroute",
