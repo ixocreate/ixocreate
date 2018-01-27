@@ -912,12 +912,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/admin.git",
-                "reference": "9a4d2d95618614f0775f43acfabed419e1679202"
+                "reference": "5e11f134c3bf15177fea454284051a20df57343b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/admin/zipball/9a4d2d95618614f0775f43acfabed419e1679202",
-                "reference": "9a4d2d95618614f0775f43acfabed419e1679202",
+                "url": "https://api.github.com/repos/kiwi-suite/admin/zipball/5e11f134c3bf15177fea454284051a20df57343b",
+                "reference": "5e11f134c3bf15177fea454284051a20df57343b",
                 "shasum": ""
             },
             "require": {
@@ -957,7 +957,7 @@
                 }
             ],
             "description": "Kiwi Admin",
-            "time": "2018-01-23T21:25:11+00:00"
+            "time": "2018-01-27T23:08:16+00:00"
         },
         {
             "name": "kiwi-suite/admin-frontend",
@@ -965,12 +965,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/admin-frontend.git",
-                "reference": "f938ffc985cb100ddb1ee897964ca1748db1b694"
+                "reference": "5ef6131752855df2a1ea7397029ddaef9ebcc3fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/admin-frontend/zipball/f938ffc985cb100ddb1ee897964ca1748db1b694",
-                "reference": "f938ffc985cb100ddb1ee897964ca1748db1b694",
+                "url": "https://api.github.com/repos/kiwi-suite/admin-frontend/zipball/5ef6131752855df2a1ea7397029ddaef9ebcc3fb",
+                "reference": "5ef6131752855df2a1ea7397029ddaef9ebcc3fb",
                 "shasum": ""
             },
             "type": "project",
@@ -984,7 +984,7 @@
                 }
             ],
             "description": "Kiwi Admin Application",
-            "time": "2018-01-23T21:46:17+00:00"
+            "time": "2018-01-27T23:11:54+00:00"
         },
         {
             "name": "kiwi-suite/application",
@@ -1035,12 +1035,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/application-console.git",
-                "reference": "af8b2c94cbb51843e371ba2b6f6909679f50bb9d"
+                "reference": "b791d2b49ecb5f669df9212d951a66c86a16ae90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/application-console/zipball/af8b2c94cbb51843e371ba2b6f6909679f50bb9d",
-                "reference": "af8b2c94cbb51843e371ba2b6f6909679f50bb9d",
+                "url": "https://api.github.com/repos/kiwi-suite/application-console/zipball/b791d2b49ecb5f669df9212d951a66c86a16ae90",
+                "reference": "b791d2b49ecb5f669df9212d951a66c86a16ae90",
                 "shasum": ""
             },
             "require": {
@@ -1071,7 +1071,7 @@
                 }
             ],
             "description": "kiwi-suite/application-console",
-            "time": "2018-01-15T16:15:05+00:00"
+            "time": "2018-01-25T10:24:22+00:00"
         },
         {
             "name": "kiwi-suite/application-http",
@@ -1298,12 +1298,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/servicemanager.git",
-                "reference": "1b09c139f131ee4eb70b0a4e11e62af904a1c442"
+                "reference": "04dcc670ff6a6538c83aba0d71f20308490cb511"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/servicemanager/zipball/1b09c139f131ee4eb70b0a4e11e62af904a1c442",
-                "reference": "1b09c139f131ee4eb70b0a4e11e62af904a1c442",
+                "url": "https://api.github.com/repos/kiwi-suite/servicemanager/zipball/04dcc670ff6a6538c83aba0d71f20308490cb511",
+                "reference": "04dcc670ff6a6538c83aba0d71f20308490cb511",
                 "shasum": ""
             },
             "require": {
@@ -1334,7 +1334,7 @@
                 }
             ],
             "description": "kiwi-suite/servicemanager is a psr-11 container library",
-            "time": "2018-01-19T06:13:59+00:00"
+            "time": "2018-01-25T10:00:59+00:00"
         },
         {
             "name": "kiwi-suite/template",
