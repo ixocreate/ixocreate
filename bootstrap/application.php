@@ -1,12 +1,10 @@
 <?php
 declare(strict_types=1);
-
 namespace Application;
 
-/** @var \KiwiSuite\Application\ApplicationConfigurator $applicationConfigurator */
-$applicationConfigurator->setDevelopment(true);
+use KiwiSuite\Framework\Module as FrameworkModule;
+use KiwiSuite\Admin\Module as AdminModule;
 
-/**
- * admin
- */
-$applicationConfigurator->addModule(\KiwiSuite\Admin\Module::class);
+/** @var \KiwiSuite\Application\ApplicationConfigurator $applicationConfigurator */
+$applicationConfigurator->addModule(FrameworkModule::class);
+$applicationConfigurator->addModule(AdminModule::class);

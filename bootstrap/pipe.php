@@ -5,5 +5,10 @@ namespace Application;
 
 /** @var \KiwiSuite\ApplicationHttp\Pipe\PipeConfigurator $pipeConfigurator */
 use KiwiSuite\Admin\Middleware\AdminMiddleware;
+use KiwiSuite\ApplicationHttp\Pipe\PipeConfigurator;
+use KiwiSuite\ProjectUri\Middleware\ProjectUriCheckMiddleware;
 
-$pipeConfigurator->addPathMiddleware('/admin', AdminMiddleware::class, PHP_INT_MAX);
+$pipeConfigurator->pipe(ProjectUriCheckMiddleware::class);
+$pipeConfigurator->segment('/admin', function (PipeConfigurator $pipeConfigurator) {
+    $pipeConfigurator->pipe(AdminMiddleware::class);
+});
