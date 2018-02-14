@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Application;
+namespace App;
 
 use KiwiSuite\Framework\Module as FrameworkModule;
 use KiwiSuite\Admin\Module as AdminModule;

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Application;
+namespace App;
 
 /** @var \KiwiSuite\ApplicationHttp\Pipe\PipeConfigurator $pipeConfigurator */
 use KiwiSuite\Admin\Middleware\AdminMiddleware;
