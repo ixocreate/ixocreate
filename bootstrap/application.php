@@ -1,10 +1,13 @@
 <?php
 declare(strict_types=1);
-namespace App;
 
-use KiwiSuite\Framework\Module as FrameworkModule;
-use KiwiSuite\Admin\Module as AdminModule;
+namespace Application;
+
+use KiwiSuite\Admin\Package as AdminPackage;
+use KiwiSuite\CommonTypes\Package as CommonTypePackage;
+use KiwiSuite\Framework\Package as FrameworkPackage;
 
 /** @var \KiwiSuite\Application\ApplicationConfigurator $applicationConfigurator */
-$applicationConfigurator->addModule(FrameworkModule::class);
-$applicationConfigurator->addModule(AdminModule::class);
+$applicationConfigurator->addPackage(CommonTypePackage::class);
+$applicationConfigurator->addPackage(FrameworkPackage::class);
+$applicationConfigurator->addPackage(AdminPackage::class);

@@ -3,15 +3,15 @@ declare(strict_types=1);
 
 namespace App;
 
-/** @var \KiwiSuite\ApplicationHttp\Pipe\PipeConfigurator $pipeConfigurator */
+/** @var PipeConfigurator $pipe */
 use App\Middleware\TestMiddleware;
 use KiwiSuite\Admin\Middleware\AdminMiddleware;
 use KiwiSuite\ApplicationHttp\Pipe\PipeConfigurator;
 use KiwiSuite\ProjectUri\Middleware\ProjectUriCheckMiddleware;
 
-$pipeConfigurator->pipe(ProjectUriCheckMiddleware::class);
-$pipeConfigurator->segment('/admin', function (PipeConfigurator $pipeConfigurator) {
-    $pipeConfigurator->pipe(AdminMiddleware::class);
+$pipe->pipe(ProjectUriCheckMiddleware::class);
+$pipe->segment('/admin', function (PipeConfigurator $pipe) {
+    $pipe->pipe(AdminMiddleware::class);
 });
 
-$pipeConfigurator->pipe(TestMiddleware::class);
+$pipe->pipe(TestMiddleware::class);
