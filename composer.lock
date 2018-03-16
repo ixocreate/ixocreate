@@ -1218,21 +1218,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/application-http.git",
-                "reference": "8225c99e56ddce3ee91cb55657f99c00e642d948"
+                "reference": "9423afe30cfe0d5ba53d061ed5f92486c736dfbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/application-http/zipball/8225c99e56ddce3ee91cb55657f99c00e642d948",
-                "reference": "8225c99e56ddce3ee91cb55657f99c00e642d948",
+                "url": "https://api.github.com/repos/kiwi-suite/application-http/zipball/9423afe30cfe0d5ba53d061ed5f92486c736dfbd",
+                "reference": "9423afe30cfe0d5ba53d061ed5f92486c736dfbd",
                 "shasum": ""
             },
             "require": {
                 "kiwi-suite/application": "dev-develop",
                 "kiwi-suite/contract": "dev-develop",
                 "php": "^7.1",
-                "zendframework/zend-expressive": "=3.0.0rc3",
-                "zendframework/zend-expressive-fastroute": "=3.0.0rc4",
-                "zendframework/zend-expressive-helpers": "=5.0.0alpha3"
+                "zendframework/zend-expressive": "^3.0",
+                "zendframework/zend-expressive-fastroute": "^3.0",
+                "zendframework/zend-expressive-helpers": "^5.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.5",
@@ -1255,7 +1255,7 @@
                 }
             ],
             "description": "kiwi-suite/application-http",
-            "time": "2018-03-15T14:14:24+00:00"
+            "time": "2018-03-16T11:12:06+00:00"
         },
         {
             "name": "kiwi-suite/command-bus",
@@ -3153,16 +3153,16 @@
         },
         {
             "name": "zendframework/zend-expressive",
-            "version": "3.0.0rc3",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-expressive.git",
-                "reference": "75af35ca33be3e61bd78010a6c24feab8e6a4d7e"
+                "reference": "eb089eba44f7a0862a38867d17086e352c710f53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-expressive/zipball/75af35ca33be3e61bd78010a6c24feab8e6a4d7e",
-                "reference": "75af35ca33be3e61bd78010a6c24feab8e6a4d7e",
+                "url": "https://api.github.com/repos/zendframework/zend-expressive/zipball/eb089eba44f7a0862a38867d17086e352c710f53",
+                "reference": "eb089eba44f7a0862a38867d17086e352c710f53",
                 "shasum": ""
             },
             "require": {
@@ -3171,10 +3171,10 @@
                 "psr/container": "^1.0",
                 "psr/http-message": "^1.0.1",
                 "psr/http-server-middleware": "^1.0",
-                "zendframework/zend-expressive-router": "^3.0.0rc4",
-                "zendframework/zend-expressive-template": "^2.0.0alpha1",
+                "zendframework/zend-expressive-router": "^3.0",
+                "zendframework/zend-expressive-template": "^2.0",
                 "zendframework/zend-httphandlerrunner": "^1.0.1",
-                "zendframework/zend-stratigility": "^3.0.0rc1"
+                "zendframework/zend-stratigility": "^3.0"
             },
             "conflict": {
                 "container-interop/container-interop": "<1.2.0",
@@ -3189,17 +3189,17 @@
                 "phpunit/phpunit": "^7.0.1",
                 "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-diactoros": "^1.7.1",
-                "zendframework/zend-expressive-aurarouter": "^3.0.0rc3",
-                "zendframework/zend-expressive-fastroute": "^3.0.0rc4",
-                "zendframework/zend-expressive-zendrouter": "^3.0.0rc3",
+                "zendframework/zend-expressive-aurarouter": "^3.0",
+                "zendframework/zend-expressive-fastroute": "^3.0",
+                "zendframework/zend-expressive-zendrouter": "^3.0",
                 "zendframework/zend-servicemanager": "^2.7.8 || ^3.3"
             },
             "suggest": {
                 "filp/whoops": "^2.1 to use the Whoops error handler",
+                "psr/http-message-implementation": "Please install a psr/http-message-implementation to consume Expressive; e.g., zendframework/zend-diactoros",
                 "zendframework/zend-auradi-config": "^1.0 to use Aura.Di dependency injection container",
-                "zendframework/zend-diactoros": "^1.7.1 to use diactoros with default Response, ServerRequest and Stream factories",
                 "zendframework/zend-expressive-helpers": "^3.0 for its UrlHelper, ServerUrlHelper, and BodyParseMiddleware",
-                "zendframework/zend-expressive-tooling": "For migration and development tools; require it with the --dev flag",
+                "zendframework/zend-expressive-tooling": "^1.0 for migration and development tools; require it with the --dev flag",
                 "zendframework/zend-pimple-config": "^1.0 to use Pimple for dependency injection container",
                 "zendframework/zend-servicemanager": "^3.3 to use zend-servicemanager for dependency injection"
             },
@@ -3209,9 +3209,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1.x-dev",
-                    "dev-develop": "2.2.x-dev",
-                    "dev-release-3.0.0": "3.0.x-dev"
+                    "dev-master": "3.0.x-dev",
+                    "dev-develop": "3.1.x-dev"
                 },
                 "zf": {
                     "config-provider": "Zend\\Expressive\\ConfigProvider"
@@ -3229,7 +3228,7 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "description": "PSR-7 Middleware Microframework based on Stratigility",
+            "description": "PSR-15 Middleware Microframework",
             "keywords": [
                 "PSR-11",
                 "ZendFramework",
@@ -3237,24 +3236,25 @@
                 "http",
                 "middleware",
                 "psr",
+                "psr-15",
                 "psr-7",
                 "zend-expressive",
                 "zf"
             ],
-            "time": "2018-03-07T17:42:21+00:00"
+            "time": "2018-03-15T19:02:03+00:00"
         },
         {
             "name": "zendframework/zend-expressive-fastroute",
-            "version": "3.0.0rc4",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-expressive-fastroute.git",
-                "reference": "43fac9a08c4eb8587899fb1c6bb916ec8925f5d2"
+                "reference": "a4cc8081bc745f971999c08ffa6c9c58bb193b06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-expressive-fastroute/zipball/43fac9a08c4eb8587899fb1c6bb916ec8925f5d2",
-                "reference": "43fac9a08c4eb8587899fb1c6bb916ec8925f5d2",
+                "url": "https://api.github.com/repos/zendframework/zend-expressive-fastroute/zipball/a4cc8081bc745f971999c08ffa6c9c58bb193b06",
+                "reference": "a4cc8081bc745f971999c08ffa6c9c58bb193b06",
                 "shasum": ""
             },
             "require": {
@@ -3263,7 +3263,7 @@
                 "php": "^7.1",
                 "psr/container": "^1.0",
                 "psr/http-message": "^1.0.1",
-                "zendframework/zend-expressive-router": "^3.0.0rc4",
+                "zendframework/zend-expressive-router": "^3.0",
                 "zendframework/zend-stdlib": "^2.0 || ^3.1"
             },
             "conflict": {
@@ -3271,17 +3271,17 @@
             },
             "require-dev": {
                 "malukenho/docheader": "^0.1.6",
+                "mikey179/vfsstream": "^1.6.5",
                 "phpunit/phpunit": "^7.0.2",
                 "zendframework/zend-coding-standard": "~1.0.0",
-                "zendframework/zend-diactoros": "^1.7",
-                "zendframework/zend-stratigility": "^3.0.0rc1"
+                "zendframework/zend-diactoros": "^1.7.1",
+                "zendframework/zend-stratigility": "^3.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev",
-                    "dev-develop": "2.2-dev",
-                    "dev-release-3.0.0": "3.0.x-dev"
+                    "dev-master": "3.0.x-dev",
+                    "dev-develop": "3.1.x-dev"
                 },
                 "zf": {
                     "config-provider": "Zend\\Expressive\\Router\\FastRouteRouter\\ConfigProvider"
@@ -3308,20 +3308,20 @@
                 "zend-expressive",
                 "zf"
             ],
-            "time": "2018-03-07T17:10:51+00:00"
+            "time": "2018-03-15T16:18:52+00:00"
         },
         {
             "name": "zendframework/zend-expressive-helpers",
-            "version": "5.0.0alpha3",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-expressive-helpers.git",
-                "reference": "424d98086041c833c22cc5787c246c56dadff212"
+                "reference": "196e7d4de290b422df4688338dd4fa47e48b4d2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-expressive-helpers/zipball/424d98086041c833c22cc5787c246c56dadff212",
-                "reference": "424d98086041c833c22cc5787c246c56dadff212",
+                "url": "https://api.github.com/repos/zendframework/zend-expressive-helpers/zipball/196e7d4de290b422df4688338dd4fa47e48b4d2f",
+                "reference": "196e7d4de290b422df4688338dd4fa47e48b4d2f",
                 "shasum": ""
             },
             "require": {
@@ -3329,26 +3329,20 @@
                 "psr/container": "^1.0",
                 "psr/http-message": "^1.0.1",
                 "psr/http-server-middleware": "^1.0",
-                "zendframework/zend-expressive-router": "^3.0.0alpha1 || ^3.0"
+                "zendframework/zend-expressive-router": "^3.0"
             },
             "require-dev": {
                 "malukenho/docheader": "^0.1.6",
                 "mockery/mockery": "^1.0",
-                "phpunit/phpunit": "^6.5.5",
+                "phpunit/phpunit": "^7.0.2",
                 "zendframework/zend-coding-standard": "~1.0.0",
-                "zendframework/zend-diactoros": "^1.3.10"
-            },
-            "suggest": {
-                "aura/di": "^3.2 to make use of Aura.Di dependency injection container",
-                "mouf/pimple-interop": "^1.0 to use Pimple for dependency injection",
-                "zendframework/zend-servicemanager": "^3.3 to use zend-servicemanager for dependency injection"
+                "zendframework/zend-diactoros": "^1.7.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2.x-dev",
-                    "dev-develop": "4.3.x-dev",
-                    "dev-release-5.0.0": "5.0.x-dev"
+                    "dev-master": "5.0.x-dev",
+                    "dev-develop": "5.1.x-dev"
                 },
                 "zf": {
                     "config-provider": "Zend\\Expressive\\Helper\\ConfigProvider"
@@ -3374,20 +3368,20 @@
                 "zend-expressive",
                 "zf"
             ],
-            "time": "2018-02-06T21:16:07+00:00"
+            "time": "2018-03-15T16:42:27+00:00"
         },
         {
             "name": "zendframework/zend-expressive-platesrenderer",
-            "version": "2.0.0alpha1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-expressive-platesrenderer.git",
-                "reference": "841608c94bcec364d5b6e4dae2fc6ca418374097"
+                "reference": "60fd84da52ae519c14f8f4c2147f2a1aebc3f01e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-expressive-platesrenderer/zipball/841608c94bcec364d5b6e4dae2fc6ca418374097",
-                "reference": "841608c94bcec364d5b6e4dae2fc6ca418374097",
+                "url": "https://api.github.com/repos/zendframework/zend-expressive-platesrenderer/zipball/60fd84da52ae519c14f8f4c2147f2a1aebc3f01e",
+                "reference": "60fd84da52ae519c14f8f4c2147f2a1aebc3f01e",
                 "shasum": ""
             },
             "require": {
@@ -3395,29 +3389,23 @@
                 "php": "^7.1",
                 "psr/container": "^1.0",
                 "zendframework/zend-escaper": "^2.5",
-                "zendframework/zend-expressive-helpers": "^5.0.0alpha1 || ^5.0",
-                "zendframework/zend-expressive-router": "^3.0.0alpha1 || ^3.0",
-                "zendframework/zend-expressive-template": "^2.0.0alpha1 || ^2.0"
+                "zendframework/zend-expressive-helpers": "^5.0",
+                "zendframework/zend-expressive-router": "^3.0",
+                "zendframework/zend-expressive-template": "^2.0"
             },
             "conflict": {
                 "container-interop/container-interop": "<1.2.0"
             },
             "require-dev": {
                 "malukenho/docheader": "^0.1.5",
-                "phpunit/phpunit": "^6.5.3",
+                "phpunit/phpunit": "^7.0.2",
                 "zendframework/zend-coding-standard": "~1.0.0"
-            },
-            "suggest": {
-                "aura/di": "^3.2 to make use of Aura.Di dependency injection container",
-                "mouf/pimple-interop": "^1.0 to use Pimple for dependency injection",
-                "zendframework/zend-servicemanager": "^3.2 to use zend-servicemanager for dependency injection"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4.x-dev",
-                    "dev-develop": "1.5.x-dev",
-                    "dev-release-2.0.0": "2.0.x-dev"
+                    "dev-master": "2.0.x-dev",
+                    "dev-develop": "2.1.x-dev"
                 },
                 "zf": {
                     "config-provider": "Zend\\Expressive\\Plates\\ConfigProvider"
@@ -3444,20 +3432,20 @@
                 "zend-expressive",
                 "zf"
             ],
-            "time": "2018-02-06T20:16:15+00:00"
+            "time": "2018-03-15T16:49:24+00:00"
         },
         {
             "name": "zendframework/zend-expressive-router",
-            "version": "3.0.0rc6",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-expressive-router.git",
-                "reference": "239d2981a5c89c1ec3ffe7bf4a3aaf0702697a72"
+                "reference": "a1298921eb486d2a093205347a394e1ec74a9c43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-expressive-router/zipball/239d2981a5c89c1ec3ffe7bf4a3aaf0702697a72",
-                "reference": "239d2981a5c89c1ec3ffe7bf4a3aaf0702697a72",
+                "url": "https://api.github.com/repos/zendframework/zend-expressive-router/zipball/a1298921eb486d2a093205347a394e1ec74a9c43",
+                "reference": "a1298921eb486d2a093205347a394e1ec74a9c43",
                 "shasum": ""
             },
             "require": {
@@ -3470,9 +3458,7 @@
             "require-dev": {
                 "malukenho/docheader": "^0.1.6",
                 "phpunit/phpunit": "^7.0.2",
-                "zendframework/zend-coding-standard": "~1.0.0",
-                "zendframework/zend-diactoros": "^1.7.1",
-                "zendframework/zend-stratigility": "^3.0.0rc1"
+                "zendframework/zend-coding-standard": "~1.0.0"
             },
             "suggest": {
                 "zendframework/zend-expressive-aurarouter": "^3.0 to use the Aura.Router routing adapter",
@@ -3482,8 +3468,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4.x-dev",
-                    "dev-develop": "3.0.x-dev"
+                    "dev-master": "3.0.x-dev",
+                    "dev-develop": "3.1.x-dev"
                 },
                 "zf": {
                     "config-provider": "Zend\\Expressive\\Router\\ConfigProvider"
@@ -3509,20 +3495,20 @@
                 "zend-expressive",
                 "zf"
             ],
-            "time": "2018-03-14T16:12:38+00:00"
+            "time": "2018-03-15T15:59:46+00:00"
         },
         {
             "name": "zendframework/zend-expressive-template",
-            "version": "2.0.0alpha1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-expressive-template.git",
-                "reference": "64a8c472eda24926fb1a9466e88ba2a31198de83"
+                "reference": "b8b9ece61ed598a58223638933e2fd703ae4a5e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-expressive-template/zipball/64a8c472eda24926fb1a9466e88ba2a31198de83",
-                "reference": "64a8c472eda24926fb1a9466e88ba2a31198de83",
+                "url": "https://api.github.com/repos/zendframework/zend-expressive-template/zipball/b8b9ece61ed598a58223638933e2fd703ae4a5e9",
+                "reference": "b8b9ece61ed598a58223638933e2fd703ae4a5e9",
                 "shasum": ""
             },
             "require": {
@@ -3530,7 +3516,7 @@
             },
             "require-dev": {
                 "malukenho/docheader": "^0.1.6",
-                "phpunit/phpunit": "^6.5.3",
+                "phpunit/phpunit": "^7.0.2",
                 "zendframework/zend-coding-standard": "~1.0.0"
             },
             "suggest": {
@@ -3541,9 +3527,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev",
-                    "dev-develop": "1.1.x-dev",
-                    "dev-release-2.0.0": "2.0.x-dev"
+                    "dev-master": "2.0.x-dev",
+                    "dev-develop": "2.1.x-dev"
                 }
             },
             "autoload": {
@@ -3563,7 +3548,7 @@
                 "zend-expressive",
                 "zf"
             ],
-            "time": "2018-02-06T20:09:18+00:00"
+            "time": "2018-03-15T15:42:46+00:00"
         },
         {
             "name": "zendframework/zend-filter",
