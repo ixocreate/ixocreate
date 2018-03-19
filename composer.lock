@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "beberlei/assert",
-            "version": "v2.9.2",
+            "version": "v2.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/beberlei/assert.git",
-                "reference": "2d555f72f3f4ff9e72a7bc17cb8a53c86737c8a0"
+                "reference": "7d8108458bbe3d063dc3315278b2001a7156fade"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beberlei/assert/zipball/2d555f72f3f4ff9e72a7bc17cb8a53c86737c8a0",
-                "reference": "2d555f72f3f4ff9e72a7bc17cb8a53c86737c8a0",
+                "url": "https://api.github.com/repos/beberlei/assert/zipball/7d8108458bbe3d063dc3315278b2001a7156fade",
+                "reference": "7d8108458bbe3d063dc3315278b2001a7156fade",
                 "shasum": ""
             },
             "require": {
@@ -59,7 +59,7 @@
                 "assertion",
                 "validation"
             ],
-            "time": "2018-01-25T13:33:16+00:00"
+            "time": "2018-03-16T17:46:00+00:00"
         },
         {
             "name": "bernard/bernard",
@@ -1047,12 +1047,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/admin.git",
-                "reference": "20e1e40024265946c8a194a9d2d689e02c7139b8"
+                "reference": "720ed6e1beed78b6402d385841b233c1b3742888"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/admin/zipball/20e1e40024265946c8a194a9d2d689e02c7139b8",
-                "reference": "20e1e40024265946c8a194a9d2d689e02c7139b8",
+                "url": "https://api.github.com/repos/kiwi-suite/admin/zipball/720ed6e1beed78b6402d385841b233c1b3742888",
+                "reference": "720ed6e1beed78b6402d385841b233c1b3742888",
                 "shasum": ""
             },
             "require": {
@@ -1093,7 +1093,7 @@
                 }
             ],
             "description": "Kiwi Admin",
-            "time": "2018-03-15T14:21:40+00:00"
+            "time": "2018-03-19T06:06:49+00:00"
         },
         {
             "name": "kiwi-suite/admin-frontend",
@@ -1128,12 +1128,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/application.git",
-                "reference": "9586af2bd5ab64dff83f55144f80311cd89a66c3"
+                "reference": "0357fa6c7f43f48abae1962a643bf533bf63b30d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/application/zipball/9586af2bd5ab64dff83f55144f80311cd89a66c3",
-                "reference": "9586af2bd5ab64dff83f55144f80311cd89a66c3",
+                "url": "https://api.github.com/repos/kiwi-suite/application/zipball/0357fa6c7f43f48abae1962a643bf533bf63b30d",
+                "reference": "0357fa6c7f43f48abae1962a643bf533bf63b30d",
                 "shasum": ""
             },
             "require": {
@@ -1164,7 +1164,7 @@
                 }
             ],
             "description": "kiwi-suite/application",
-            "time": "2018-03-15T14:13:20+00:00"
+            "time": "2018-03-19T06:05:44+00:00"
         },
         {
             "name": "kiwi-suite/application-console",
@@ -1172,12 +1172,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/application-console.git",
-                "reference": "402e0ce7c0428408702de615d0fe85f4c3a052b4"
+                "reference": "dc702d16a6fb5aca2826c28cd8cd31dd5fa54320"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/application-console/zipball/402e0ce7c0428408702de615d0fe85f4c3a052b4",
-                "reference": "402e0ce7c0428408702de615d0fe85f4c3a052b4",
+                "url": "https://api.github.com/repos/kiwi-suite/application-console/zipball/dc702d16a6fb5aca2826c28cd8cd31dd5fa54320",
+                "reference": "dc702d16a6fb5aca2826c28cd8cd31dd5fa54320",
                 "shasum": ""
             },
             "require": {
@@ -1210,7 +1210,7 @@
                 }
             ],
             "description": "kiwi-suite/application-console",
-            "time": "2018-03-15T14:19:03+00:00"
+            "time": "2018-03-16T11:49:10+00:00"
         },
         {
             "name": "kiwi-suite/application-http",
@@ -1534,12 +1534,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/framework.git",
-                "reference": "fdd6697398c70b3ad7d9eb323ad913c1e93554eb"
+                "reference": "71824aeb533ea97e8c90feb213839c69b7a6fdce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/framework/zipball/fdd6697398c70b3ad7d9eb323ad913c1e93554eb",
-                "reference": "fdd6697398c70b3ad7d9eb323ad913c1e93554eb",
+                "url": "https://api.github.com/repos/kiwi-suite/framework/zipball/71824aeb533ea97e8c90feb213839c69b7a6fdce",
+                "reference": "71824aeb533ea97e8c90feb213839c69b7a6fdce",
                 "shasum": ""
             },
             "require": {
@@ -1576,7 +1576,7 @@
                 }
             ],
             "description": "kiwi-suite/framework",
-            "time": "2018-03-15T14:26:14+00:00"
+            "time": "2018-03-19T06:10:23+00:00"
         },
         {
             "name": "kiwi-suite/project-uri",
@@ -1673,23 +1673,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/template.git",
-                "reference": "201779b66a6eac81bc6bcdc25b484c5039bf1557"
+                "reference": "5e7c89b8b125c23191a6a4341d7b0c77ee98f3cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/template/zipball/201779b66a6eac81bc6bcdc25b484c5039bf1557",
-                "reference": "201779b66a6eac81bc6bcdc25b484c5039bf1557",
+                "url": "https://api.github.com/repos/kiwi-suite/template/zipball/5e7c89b8b125c23191a6a4341d7b0c77ee98f3cc",
+                "reference": "5e7c89b8b125c23191a6a4341d7b0c77ee98f3cc",
                 "shasum": ""
             },
             "require": {
                 "kiwi-suite/contract": "dev-develop",
                 "php": "^7.1",
-                "zendframework/zend-expressive-helpers": "^5.0.0-dev",
-                "zendframework/zend-expressive-platesrenderer": "^2.0.0-dev"
+                "zendframework/zend-expressive-platesrenderer": "^2.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.5",
-                "kiwi-suite/application": "dev-develop",
                 "kiwi-suite/servicemanager": "dev-develop",
                 "php-coveralls/php-coveralls": "^2.0",
                 "phpunit/phpunit": "^6.0.6"
@@ -1706,11 +1704,14 @@
             ],
             "authors": [
                 {
+                    "name": "Thomas Payer"
+                },
+                {
                     "name": "Lucas Seinfeld"
                 }
             ],
             "description": "kiwi-suite/template",
-            "time": "2018-03-14T04:37:55+00:00"
+            "time": "2018-03-19T06:15:56+00:00"
         },
         {
             "name": "league/plates",
