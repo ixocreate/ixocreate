@@ -9,3 +9,7 @@ nbproject
 .php_cs.cache
 /public/assets/
 /vendor/
+/resources/admin/build
+/data
+/public/media
+/tmp
