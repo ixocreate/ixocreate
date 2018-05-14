@@ -1368,12 +1368,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/admin.git",
-                "reference": "15aee1d0412f11991eb57c686daaddb8a40bf56d"
+                "reference": "04ea480956691123ac72fb5a28e32f789a8707ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/admin/zipball/15aee1d0412f11991eb57c686daaddb8a40bf56d",
-                "reference": "15aee1d0412f11991eb57c686daaddb8a40bf56d",
+                "url": "https://api.github.com/repos/kiwi-suite/admin/zipball/04ea480956691123ac72fb5a28e32f789a8707ef",
+                "reference": "04ea480956691123ac72fb5a28e32f789a8707ef",
                 "shasum": ""
             },
             "require": {
@@ -1411,7 +1411,7 @@
                 }
             ],
             "description": "Kiwi Admin",
-            "time": "2018-05-08T14:51:05+00:00"
+            "time": "2018-05-14T16:21:39+00:00"
         },
         {
             "name": "kiwi-suite/admin-frontend",
@@ -1419,12 +1419,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/admin-frontend.git",
-                "reference": "f53aacbdf99601a839eee79e76749414ec370202"
+                "reference": "5621fcada76623f25fde7611979031abc6851e1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/admin-frontend/zipball/f53aacbdf99601a839eee79e76749414ec370202",
-                "reference": "f53aacbdf99601a839eee79e76749414ec370202",
+                "url": "https://api.github.com/repos/kiwi-suite/admin-frontend/zipball/5621fcada76623f25fde7611979031abc6851e1a",
+                "reference": "5621fcada76623f25fde7611979031abc6851e1a",
                 "shasum": ""
             },
             "type": "project",
@@ -1438,7 +1438,7 @@
                 }
             ],
             "description": "Kiwi Admin Application",
-            "time": "2018-05-14T14:54:02+00:00"
+            "time": "2018-05-14T15:07:33+00:00"
         },
         {
             "name": "kiwi-suite/application",
