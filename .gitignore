@@ -7,10 +7,8 @@ nbproject
 .project
 .settings
 .php_cs.cache
-/public/assets/
-/vendor/
 /data
-/public/assets/
+/public/assets
 /public/media
 /vendor/
 
