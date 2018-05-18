@@ -2036,12 +2036,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/media.git",
-                "reference": "1c57ae29d75603f39f05e7ba3fa981c842b64e5a"
+                "reference": "518a4833abcb08ea002529778eabaad8779826ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/media/zipball/1c57ae29d75603f39f05e7ba3fa981c842b64e5a",
-                "reference": "1c57ae29d75603f39f05e7ba3fa981c842b64e5a",
+                "url": "https://api.github.com/repos/kiwi-suite/media/zipball/518a4833abcb08ea002529778eabaad8779826ad",
+                "reference": "518a4833abcb08ea002529778eabaad8779826ad",
                 "shasum": ""
             },
             "require": {
@@ -2073,7 +2073,7 @@
                 }
             ],
             "description": "kiwi-suite/media",
-            "time": "2018-05-18T12:15:36+00:00"
+            "time": "2018-05-18T16:23:11+00:00"
         },
         {
             "name": "kiwi-suite/project-uri",
