@@ -1368,12 +1368,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/admin.git",
-                "reference": "8b37d0e4604e84e9c979bb97bb947d9bf9fdae93"
+                "reference": "8b4f62d13e517fdcf9f858f3847d51e4576a326f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/admin/zipball/8b37d0e4604e84e9c979bb97bb947d9bf9fdae93",
-                "reference": "8b37d0e4604e84e9c979bb97bb947d9bf9fdae93",
+                "url": "https://api.github.com/repos/kiwi-suite/admin/zipball/8b4f62d13e517fdcf9f858f3847d51e4576a326f",
+                "reference": "8b4f62d13e517fdcf9f858f3847d51e4576a326f",
                 "shasum": ""
             },
             "require": {
@@ -1412,7 +1412,7 @@
                 }
             ],
             "description": "Kiwi Admin",
-            "time": "2018-05-15T18:11:06+00:00"
+            "time": "2018-05-18T10:48:54+00:00"
         },
         {
             "name": "kiwi-suite/admin-frontend",
@@ -1420,12 +1420,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/admin-frontend.git",
-                "reference": "58495c8dcb781cfc2a41ae2d269a7f2875727b0f"
+                "reference": "bf82bf935bf753d0ae88db64ac53ce58301245f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/admin-frontend/zipball/58495c8dcb781cfc2a41ae2d269a7f2875727b0f",
-                "reference": "58495c8dcb781cfc2a41ae2d269a7f2875727b0f",
+                "url": "https://api.github.com/repos/kiwi-suite/admin-frontend/zipball/bf82bf935bf753d0ae88db64ac53ce58301245f3",
+                "reference": "bf82bf935bf753d0ae88db64ac53ce58301245f3",
                 "shasum": ""
             },
             "type": "project",
@@ -1439,7 +1439,7 @@
                 }
             ],
             "description": "Kiwi Admin Application",
-            "time": "2018-05-15T18:37:29+00:00"
+            "time": "2018-05-18T15:43:10+00:00"
         },
         {
             "name": "kiwi-suite/application",
@@ -1628,12 +1628,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/cms.git",
-                "reference": "e725c46455c5d22bfc18262e0913a697ce7384a4"
+                "reference": "2359e315833f4c08684c29eb5e56102a566d8399"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/cms/zipball/e725c46455c5d22bfc18262e0913a697ce7384a4",
-                "reference": "e725c46455c5d22bfc18262e0913a697ce7384a4",
+                "url": "https://api.github.com/repos/kiwi-suite/cms/zipball/2359e315833f4c08684c29eb5e56102a566d8399",
+                "reference": "2359e315833f4c08684c29eb5e56102a566d8399",
                 "shasum": ""
             },
             "require": {
@@ -1661,7 +1661,7 @@
                 }
             ],
             "description": "kiwi-suite/cms",
-            "time": "2018-05-15T11:00:17+00:00"
+            "time": "2018-05-18T11:52:54+00:00"
         },
         {
             "name": "kiwi-suite/command-bus",
@@ -2036,12 +2036,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kiwi-suite/media.git",
-                "reference": "1669d6615bf7ed7c92bbba10bde1b52efd1dd387"
+                "reference": "1c57ae29d75603f39f05e7ba3fa981c842b64e5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kiwi-suite/media/zipball/1669d6615bf7ed7c92bbba10bde1b52efd1dd387",
-                "reference": "1669d6615bf7ed7c92bbba10bde1b52efd1dd387",
+                "url": "https://api.github.com/repos/kiwi-suite/media/zipball/1c57ae29d75603f39f05e7ba3fa981c842b64e5a",
+                "reference": "1c57ae29d75603f39f05e7ba3fa981c842b64e5a",
                 "shasum": ""
             },
             "require": {
@@ -2073,7 +2073,7 @@
                 }
             ],
             "description": "kiwi-suite/media",
-            "time": "2018-05-15T11:13:55+00:00"
+            "time": "2018-05-18T12:15:36+00:00"
         },
         {
             "name": "kiwi-suite/project-uri",
