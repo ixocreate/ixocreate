@@ -6,7 +6,7 @@
 <a href="https://packagist.org/packages/kiwi-suite/kiwi"><img src="https://poser.pugx.org/kiwi-suite/kiwi/license.svg" alt="License"></a>
 </p>
 
-## Kiwi
+# IXOCREATE
 
 [About]
 
@@ -22,4 +22,4 @@
 
 ## License
 
-Kiwi is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+IXOCREATE is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

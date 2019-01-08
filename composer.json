@@ -1,30 +1,18 @@
 {
-    "name": "kiwi-suite/kiwi",
-    "description": "kiwi-suite/kiwi",
+    "name": "ixocreate/ixocreate",
+    "description": "ixocreate/ixocreate",
     "license": "MIT",
     "type": "project",
-    "authors": [
-        {
-            "name": "Thomas Payer"
-        },
-        {
-            "name": "Bernhard Efler"
-        },
-        {
-            "name": "Lucas Seinfeld (luchaos)"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "php": "^7.1",
-        "kiwi-suite/admin": "dev-develop",
-        "kiwi-suite/framework": "dev-develop",
+        "ixocreate/admin": "dev-develop",
+        "ixocreate/framework": "dev-develop",
         "neomerx/cors-psr7": "^1.0",
         "swiftmailer/swiftmailer": "^6.0"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.5",
         "phpunit/phpunit": "^6.0.6"
     },
     "autoload": {
@@ -33,7 +21,7 @@
             "Admin\\": "src/Admin/"
         }
     },
-    "scripts" : {
-        "fix-cs": "vendor/friendsofphp/php-cs-fixer/php-cs-fixer fix"
+    "config": {
+        "sort-packages": true
     }
 }

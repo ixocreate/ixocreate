@@ -3,6 +3,6 @@
 \chdir(__DIR__);
 (function() {
     require_once 'vendor/autoload.php';
-    $httpApplication = new \KiwiSuite\ApplicationConsole\ConsoleApplication("bootstrap");
+    $httpApplication = new \Ixocreate\ApplicationConsole\ConsoleApplication("bootstrap");
     $httpApplication->run();
 })();

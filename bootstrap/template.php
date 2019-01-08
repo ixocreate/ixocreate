@@ -1,9 +1,11 @@
 <?php
+declare(strict_types=1);
+
 namespace App;
-use KiwiSuite\Template\TemplateConfigurator;
+
+use Ixocreate\Template\TemplateConfigurator;
 
 /** @var TemplateConfigurator $template */
-
 $template->addDirectory('layout', __DIR__ . '/../templates/layout');
 $template->addDirectory('page', __DIR__ . '/../templates/page');
 $template->addDirectory('block', __DIR__ . '/../templates/block');
