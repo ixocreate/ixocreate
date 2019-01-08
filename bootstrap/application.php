@@ -3,10 +3,11 @@ declare(strict_types=1);
 
 namespace Application;
 
-/** @var \KiwiSuite\Application\ApplicationConfigurator $applicationConfigurator */
-$applicationConfigurator->setDevelopment(true);
+use Ixocreate\Admin\Package as AdminPackage;
+use Ixocreate\CommonTypes\Package as CommonTypePackage;
+use Ixocreate\Framework\Package as FrameworkPackage;
 
-/**
- * admin
- */
-$applicationConfigurator->addModule(\KiwiSuite\Admin\Module::class);
+/** @var \Ixocreate\Application\ApplicationConfigurator $applicationConfigurator */
+$applicationConfigurator->addPackage(CommonTypePackage::class);
+$applicationConfigurator->addPackage(FrameworkPackage::class);
+$applicationConfigurator->addPackage(AdminPackage::class);

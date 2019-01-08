@@ -1,11 +1,21 @@
-nbproject
-._*
-.~lock.*
-.buildpath
-.DS_Store
+# IDEs
 .idea
 .project
 .settings
+nbproject
+
+# System Files
+.DS_Store
+
+# Project
+/data
+/node_modules
+/public/assets
+/public/media
+/vendor
 .php_cs.cache
-/public/assets/
-/vendor/
+.phpunit.result.cache
+composer.phar
+composer.lock
+phpunit.xml
+

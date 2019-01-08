@@ -1,11 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Application;
+namespace App;
 
-/** @var \KiwiSuite\ApplicationHttp\Pipe\PipeConfigurator $pipeConfigurator */
+use Ixocreate\ApplicationHttp\Pipe\PipeConfigurator;
+use Ixocreate\Cms\Middleware\CmsMiddleware;
 
-/**
- * application pipes
- */
-//$pipeConfigurator->addGlobalMidPipe(\Application\Middleware\MyMiddleware::class);
+/** @var PipeConfigurator $pipe */
+$pipe->pipe(CmsMiddleware::class);
