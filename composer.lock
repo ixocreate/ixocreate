@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "263114a2e97c21acb630b88430412d03",
+    "content-hash": "700b5c44108360978518529ee2fc1d1e",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -1638,23 +1638,23 @@
         },
         {
             "name": "ixocreate/admin",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/admin.git",
-                "reference": "b8b1de3b955e2bc06f7af6c9036f01b22ed3de8c"
+                "reference": "a06a5f5a97dbf2bf15d0b97531c20a10c02f7ef4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/admin/zipball/b8b1de3b955e2bc06f7af6c9036f01b22ed3de8c",
-                "reference": "b8b1de3b955e2bc06f7af6c9036f01b22ed3de8c",
+                "url": "https://api.github.com/repos/ixocreate/admin/zipball/a06a5f5a97dbf2bf15d0b97531c20a10c02f7ef4",
+                "reference": "a06a5f5a97dbf2bf15d0b97531c20a10c02f7ef4",
                 "shasum": ""
             },
             "require": {
                 "dflydev/fig-cookies": "^1.0",
                 "firebase/php-jwt": "^5.0",
-                "ixocreate/admin-frontend": "dev-develop",
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/admin-frontend": "=2.0.0-alpha1",
+                "ixocreate/contract": "=1.0.0-alpha1",
                 "php": "^7.1",
                 "ramsey/uuid": "^3.7",
                 "yzalis/identicon": "^1.2"
@@ -1680,20 +1680,20 @@
                 }
             ],
             "description": "IXOCREATE Admin",
-            "time": "2019-01-07T19:11:44+00:00"
+            "time": "2019-01-13T21:03:05+00:00"
         },
         {
             "name": "ixocreate/admin-frontend",
-            "version": "dev-develop",
+            "version": "2.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/admin-frontend.git",
-                "reference": "1cca6cc3756b4f2d339809396ed48c409b5f3930"
+                "reference": "c695662b268b521bd3d9bfc4209d29cd000d7ead"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/admin-frontend/zipball/1cca6cc3756b4f2d339809396ed48c409b5f3930",
-                "reference": "1cca6cc3756b4f2d339809396ed48c409b5f3930",
+                "url": "https://api.github.com/repos/ixocreate/admin-frontend/zipball/c695662b268b521bd3d9bfc4209d29cd000d7ead",
+                "reference": "c695662b268b521bd3d9bfc4209d29cd000d7ead",
                 "shasum": ""
             },
             "type": "project",
@@ -1707,26 +1707,26 @@
                 }
             ],
             "description": "IXOCREATE Admin Application",
-            "time": "2019-01-07T19:11:20+00:00"
+            "time": "2019-01-10T12:54:06+00:00"
         },
         {
             "name": "ixocreate/application",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/application.git",
-                "reference": "b39314c210172ea23bc68c02b19df5ffdfe4f54a"
+                "reference": "0cd4e6657d97e397579725d2400f2170c69604af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/application/zipball/b39314c210172ea23bc68c02b19df5ffdfe4f54a",
-                "reference": "b39314c210172ea23bc68c02b19df5ffdfe4f54a",
+                "url": "https://api.github.com/repos/ixocreate/application/zipball/0cd4e6657d97e397579725d2400f2170c69604af",
+                "reference": "0cd4e6657d97e397579725d2400f2170c69604af",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/config": "dev-develop",
-                "ixocreate/contract": "dev-develop",
-                "ixocreate/servicemanager": "dev-develop",
+                "ixocreate/config": "=1.0.0-alpha1",
+                "ixocreate/contract": "=1.0.0-alpha1",
+                "ixocreate/servicemanager": "=1.0.0-alpha1",
                 "php": "^7.1"
             },
             "require-dev": {
@@ -1751,25 +1751,25 @@
                 }
             ],
             "description": "IXOCREATE application",
-            "time": "2018-12-28T16:56:40+00:00"
+            "time": "2019-01-10T14:02:22+00:00"
         },
         {
             "name": "ixocreate/application-console",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/application-console.git",
-                "reference": "a15f9b2378a026a3ab41bf695eb26b9923d228eb"
+                "reference": "92cb44c0082fd8dd8f84959cf88a0a32dcb2c17f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/application-console/zipball/a15f9b2378a026a3ab41bf695eb26b9923d228eb",
-                "reference": "a15f9b2378a026a3ab41bf695eb26b9923d228eb",
+                "url": "https://api.github.com/repos/ixocreate/application-console/zipball/92cb44c0082fd8dd8f84959cf88a0a32dcb2c17f",
+                "reference": "92cb44c0082fd8dd8f84959cf88a0a32dcb2c17f",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/application": "dev-develop",
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/application": "=1.0.0-alpha1",
+                "ixocreate/contract": "=1.0.0-alpha1",
                 "php": "^7.1",
                 "symfony/console": "^4.0"
             },
@@ -1794,26 +1794,26 @@
                 }
             ],
             "description": "IXOCREATE application console integration",
-            "time": "2019-01-02T10:26:04+00:00"
+            "time": "2019-01-10T14:09:21+00:00"
         },
         {
             "name": "ixocreate/application-http",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/application-http.git",
-                "reference": "187a99166d78fe4c20ac936e836533d8d7fc1896"
+                "reference": "e2ab8bf77c9d08f2e8dcef1ef2c7f656500f6c9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/application-http/zipball/187a99166d78fe4c20ac936e836533d8d7fc1896",
-                "reference": "187a99166d78fe4c20ac936e836533d8d7fc1896",
+                "url": "https://api.github.com/repos/ixocreate/application-http/zipball/e2ab8bf77c9d08f2e8dcef1ef2c7f656500f6c9a",
+                "reference": "e2ab8bf77c9d08f2e8dcef1ef2c7f656500f6c9a",
                 "shasum": ""
             },
             "require": {
                 "filp/whoops": "^2.1",
-                "ixocreate/application": "dev-develop",
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/application": "=1.0.0-alpha1",
+                "ixocreate/contract": "=1.0.0-alpha1",
                 "php": "^7.1",
                 "zendframework/zend-diactoros": "^1.7",
                 "zendframework/zend-expressive": "^3.0",
@@ -1841,25 +1841,26 @@
                 }
             ],
             "description": "IXOCREATE application HTTP stack integration",
-            "time": "2018-12-28T16:59:26+00:00"
+            "time": "2019-01-10T14:24:52+00:00"
         },
         {
             "name": "ixocreate/asset",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/asset.git",
-                "reference": "7c81a9dbad120424996b16b1e12254f468f7da1e"
+                "reference": "5592beac6901bff2bbbafb9956c9ffa876e0ec09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/asset/zipball/7c81a9dbad120424996b16b1e12254f468f7da1e",
-                "reference": "7c81a9dbad120424996b16b1e12254f468f7da1e",
+                "url": "https://api.github.com/repos/ixocreate/asset/zipball/5592beac6901bff2bbbafb9956c9ffa876e0ec09",
+                "reference": "5592beac6901bff2bbbafb9956c9ffa876e0ec09",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/contract": "dev-develop",
-                "ixocreate/project-uri": "dev-develop",
+                "ixocreate/application": "=1.0.0-alpha1",
+                "ixocreate/contract": "=1.0.0-alpha1",
+                "ixocreate/project-uri": "=1.0.0-alpha1",
                 "ocramius/package-versions": "^1.1.1",
                 "php": "^7.1",
                 "symfony/asset": "^4.1"
@@ -1885,24 +1886,24 @@
                 }
             ],
             "description": "Asset for IXOCREATE",
-            "time": "2018-12-28T17:03:06+00:00"
+            "time": "2019-01-10T21:35:53+00:00"
         },
         {
             "name": "ixocreate/cms",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/cms.git",
-                "reference": "8d0c8ed999d99f783a4e733204c58cf92f3bb5e5"
+                "reference": "134f78227d498026b0c2d30edf3b1ecd27dc45b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/cms/zipball/8d0c8ed999d99f783a4e733204c58cf92f3bb5e5",
-                "reference": "8d0c8ed999d99f783a4e733204c58cf92f3bb5e5",
+                "url": "https://api.github.com/repos/ixocreate/cms/zipball/134f78227d498026b0c2d30edf3b1ecd27dc45b0",
+                "reference": "134f78227d498026b0c2d30edf3b1ecd27dc45b0",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/contract": "=1.0.0-alpha1",
                 "php": "^7.1",
                 "symfony/options-resolver": "^4.1"
             },
@@ -1927,24 +1928,25 @@
                 }
             ],
             "description": "IXOCREATE CMS implementation",
-            "time": "2019-01-07T17:56:05+00:00"
+            "time": "2019-01-15T10:29:39+00:00"
         },
         {
             "name": "ixocreate/command-bus",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/command-bus.git",
-                "reference": "d796731276f8a40fa3da092d65b70b23cf6363de"
+                "reference": "fad14fe6003d371076dbb48a722cb5ce635092c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/command-bus/zipball/d796731276f8a40fa3da092d65b70b23cf6363de",
-                "reference": "d796731276f8a40fa3da092d65b70b23cf6363de",
+                "url": "https://api.github.com/repos/ixocreate/command-bus/zipball/fad14fe6003d371076dbb48a722cb5ce635092c8",
+                "reference": "fad14fe6003d371076dbb48a722cb5ce635092c8",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/contract": "=1.0.0-alpha1",
+                "ixocreate/servicemanager": "=1.0.0-alpha1",
                 "php": "^7.1",
                 "ramsey/uuid": "^3.8",
                 "symfony/options-resolver": "^4.1",
@@ -1952,7 +1954,6 @@
             },
             "require-dev": {
                 "ixocreate/coding-standard": "^1.0",
-                "ixocreate/servicemanager": "dev-develop",
                 "php-coveralls/php-coveralls": "^2.1",
                 "phpunit/phpunit": "^6.0.6"
             },
@@ -1972,26 +1973,26 @@
                 }
             ],
             "description": "Command-Bus for IXOCREATE",
-            "time": "2018-12-28T17:03:26+00:00"
+            "time": "2019-01-10T21:46:42+00:00"
         },
         {
             "name": "ixocreate/command-bus-filter",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/command-bus-filter.git",
-                "reference": "0f0ba63bfd06f25beb5d1577bd7938a551ced876"
+                "reference": "79a4914b039253b45562375d3297d5c8bc0b6d6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/command-bus-filter/zipball/0f0ba63bfd06f25beb5d1577bd7938a551ced876",
-                "reference": "0f0ba63bfd06f25beb5d1577bd7938a551ced876",
+                "url": "https://api.github.com/repos/ixocreate/command-bus-filter/zipball/79a4914b039253b45562375d3297d5c8bc0b6d6a",
+                "reference": "79a4914b039253b45562375d3297d5c8bc0b6d6a",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/command-bus": "dev-develop",
-                "ixocreate/contract": "dev-develop",
-                "ixocreate/filter": "dev-develop",
+                "ixocreate/command-bus": "=1.0.0-alpha1",
+                "ixocreate/contract": "=1.0.0-alpha1",
+                "ixocreate/filter": "=1.0.0-alpha1",
                 "php": "^7.1"
             },
             "require-dev": {
@@ -2015,26 +2016,26 @@
                 }
             ],
             "description": "command-bus-filter extension for IXOCREATE",
-            "time": "2019-01-07T17:33:31+00:00"
+            "time": "2019-01-15T11:38:48+00:00"
         },
         {
             "name": "ixocreate/command-bus-validation",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/command-bus-validation.git",
-                "reference": "1fad4407746082c42ea38e8d8f8e993a27c62635"
+                "reference": "cbbcea9eb46592457a48a0e6f0b99fec806077ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/command-bus-validation/zipball/1fad4407746082c42ea38e8d8f8e993a27c62635",
-                "reference": "1fad4407746082c42ea38e8d8f8e993a27c62635",
+                "url": "https://api.github.com/repos/ixocreate/command-bus-validation/zipball/cbbcea9eb46592457a48a0e6f0b99fec806077ca",
+                "reference": "cbbcea9eb46592457a48a0e6f0b99fec806077ca",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/command-bus": "dev-develop",
-                "ixocreate/contract": "dev-develop",
-                "ixocreate/validation": "dev-develop",
+                "ixocreate/command-bus": "=1.0.0-alpha1",
+                "ixocreate/contract": "=1.0.0-alpha1",
+                "ixocreate/validation": "=1.0.0-alpha1",
                 "php": "^7.1"
             },
             "require-dev": {
@@ -2058,37 +2059,37 @@
                 }
             ],
             "description": "Validation for the IXOCREATE Command-Bus",
-            "time": "2018-12-28T17:04:09+00:00"
+            "time": "2019-01-15T11:44:12+00:00"
         },
         {
             "name": "ixocreate/common-types",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/common-types.git",
-                "reference": "f4a875f753036462885b623c800dac8a52a7193f"
+                "reference": "9c3ead3d381f3daf118f699045500c68bf976fab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/common-types/zipball/f4a875f753036462885b623c800dac8a52a7193f",
-                "reference": "f4a875f753036462885b623c800dac8a52a7193f",
+                "url": "https://api.github.com/repos/ixocreate/common-types/zipball/9c3ead3d381f3daf118f699045500c68bf976fab",
+                "reference": "9c3ead3d381f3daf118f699045500c68bf976fab",
                 "shasum": ""
             },
             "require": {
                 "beberlei/assert": "^2.9",
                 "deanblackborough/php-quill-renderer": "^3.14",
-                "ixocreate/contract": "dev-develop",
-                "ixocreate/database": "dev-develop",
-                "ixocreate/entity": "dev-develop",
+                "ixocreate/contract": "=1.0.0-alpha1",
+                "ixocreate/database": "=1.0.0-alpha1",
+                "ixocreate/entity": "=1.0.0-alpha1",
                 "php": "^7.1",
                 "ramsey/uuid": "^3.7"
             },
             "require-dev": {
-                "ixocreate/application": "dev-develop",
-                "ixocreate/cms": "dev-develop",
+                "ixocreate/application": "=1.0.0-alpha1",
+                "ixocreate/cms": "=1.0.0-alpha1",
                 "ixocreate/coding-standard": "^1.0.1",
-                "ixocreate/media": "dev-develop",
-                "ixocreate/schema": "dev-develop",
+                "ixocreate/media": "=1.0.0-alpha1",
+                "ixocreate/schema": "=1.0.0-alpha1",
                 "php-coveralls/php-coveralls": "^2.0",
                 "phpunit/phpunit": "^6.0.6"
             },
@@ -2108,24 +2109,24 @@
                 }
             ],
             "description": "ixocreate/common-types",
-            "time": "2018-12-28T17:04:30+00:00"
+            "time": "2019-01-15T11:56:13+00:00"
         },
         {
             "name": "ixocreate/config",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/config.git",
-                "reference": "1daff96e6fe82ee11f31714b63028d07f87b9fe8"
+                "reference": "7da9c79b1c067a24df92686d79f2d95203690908"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/config/zipball/1daff96e6fe82ee11f31714b63028d07f87b9fe8",
-                "reference": "1daff96e6fe82ee11f31714b63028d07f87b9fe8",
+                "url": "https://api.github.com/repos/ixocreate/config/zipball/7da9c79b1c067a24df92686d79f2d95203690908",
+                "reference": "7da9c79b1c067a24df92686d79f2d95203690908",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/contract": "=1.0.0-alpha1",
                 "php": "^7.1"
             },
             "require-dev": {
@@ -2150,20 +2151,20 @@
                 }
             ],
             "description": "Config Class for IXOCREATE",
-            "time": "2018-12-28T17:05:01+00:00"
+            "time": "2019-01-10T13:33:56+00:00"
         },
         {
             "name": "ixocreate/contract",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/contract.git",
-                "reference": "0412e78c812c389260cce8a90f5c90814dbaf3b5"
+                "reference": "da181937f5f1327a72e33a457905ddb4101bc2fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/contract/zipball/0412e78c812c389260cce8a90f5c90814dbaf3b5",
-                "reference": "0412e78c812c389260cce8a90f5c90814dbaf3b5",
+                "url": "https://api.github.com/repos/ixocreate/contract/zipball/da181937f5f1327a72e33a457905ddb4101bc2fb",
+                "reference": "da181937f5f1327a72e33a457905ddb4101bc2fb",
                 "shasum": ""
             },
             "require": {
@@ -2194,34 +2195,34 @@
                 }
             ],
             "description": "The IXOCREATE contract package",
-            "time": "2019-01-03T10:44:27+00:00"
+            "time": "2019-01-08T15:39:10+00:00"
         },
         {
             "name": "ixocreate/database",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/database.git",
-                "reference": "37b91aace6565cdb0130b065a3a5863fee9d8d62"
+                "reference": "094c26fee42d8866c4ed7212da7f3bb0fb6e5660"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/database/zipball/37b91aace6565cdb0130b065a3a5863fee9d8d62",
-                "reference": "37b91aace6565cdb0130b065a3a5863fee9d8d62",
+                "url": "https://api.github.com/repos/ixocreate/database/zipball/094c26fee42d8866c4ed7212da7f3bb0fb6e5660",
+                "reference": "094c26fee42d8866c4ed7212da7f3bb0fb6e5660",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "^2.6",
                 "doctrine/migrations": "^1.6",
                 "doctrine/orm": "^2.6",
-                "ixocreate/contract": "dev-develop",
-                "ixocreate/entity": "dev-develop",
+                "ixocreate/application": "=1.0.0-alpha1",
+                "ixocreate/contract": "=1.0.0-alpha1",
+                "ixocreate/entity": "=1.0.0-alpha1",
+                "ixocreate/servicemanager": "=1.0.0-alpha1",
                 "php": "^7.1"
             },
             "require-dev": {
-                "ixocreate/application": "dev-develop",
                 "ixocreate/coding-standard": "^1.0.1",
-                "ixocreate/servicemanager": "dev-develop",
                 "phpunit/phpunit": "^6.0.6"
             },
             "type": "library",
@@ -2240,31 +2241,31 @@
                 }
             ],
             "description": "Database and Doctrine integration for IXOCREATE",
-            "time": "2018-12-28T17:07:40+00:00"
+            "time": "2019-01-10T21:58:08+00:00"
         },
         {
             "name": "ixocreate/entity",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/entity.git",
-                "reference": "2286820e7d98b17a21e502da4087d9abb74deb0f"
+                "reference": "fdf5ab90a20b2197f4e8ea849cfb25677ba15a0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/entity/zipball/2286820e7d98b17a21e502da4087d9abb74deb0f",
-                "reference": "2286820e7d98b17a21e502da4087d9abb74deb0f",
+                "url": "https://api.github.com/repos/ixocreate/entity/zipball/fdf5ab90a20b2197f4e8ea849cfb25677ba15a0c",
+                "reference": "fdf5ab90a20b2197f4e8ea849cfb25677ba15a0c",
                 "shasum": ""
             },
             "require": {
+                "ixocreate/application": "=1.0.0-alpha1",
+                "ixocreate/contract": "=1.0.0-alpha1",
+                "ixocreate/servicemanager": "=1.0.0-alpha1",
                 "php": "^7.1",
                 "zendframework/zend-filter": "^2.7"
             },
             "require-dev": {
-                "ixocreate/application": "dev-develop",
                 "ixocreate/coding-standard": "^1.0.1",
-                "ixocreate/contract": "dev-develop",
-                "ixocreate/servicemanager": "dev-develop",
                 "php-coveralls/php-coveralls": "^2.0",
                 "phpunit/phpunit": "^6.0.6"
             },
@@ -2284,29 +2285,29 @@
                 }
             ],
             "description": "A library for entities and collections",
-            "time": "2018-12-28T17:10:11+00:00"
+            "time": "2019-01-10T21:41:03+00:00"
         },
         {
             "name": "ixocreate/event",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/event.git",
-                "reference": "b29c0a49a9792cf08ffc559e4f522b9d0cae536b"
+                "reference": "aa886bbafd99a7b0511fbb01fa2831f862966593"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/event/zipball/b29c0a49a9792cf08ffc559e4f522b9d0cae536b",
-                "reference": "b29c0a49a9792cf08ffc559e4f522b9d0cae536b",
+                "url": "https://api.github.com/repos/ixocreate/event/zipball/aa886bbafd99a7b0511fbb01fa2831f862966593",
+                "reference": "aa886bbafd99a7b0511fbb01fa2831f862966593",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/contract": "=1.0.0-alpha1",
+                "ixocreate/servicemanager": "=1.0.0-alpha1",
                 "php": "^7.1",
                 "symfony/event-dispatcher": "^4.1"
             },
             "require-dev": {
-                "ixocreate/application": "dev-develop",
                 "ixocreate/coding-standard": "^1.0",
                 "php-coveralls/php-coveralls": "^2.0",
                 "phpunit/phpunit": "^6.0.6"
@@ -2327,29 +2328,29 @@
                 }
             ],
             "description": "IXOCREATE event integration",
-            "time": "2018-12-28T17:00:11+00:00"
+            "time": "2019-01-10T13:57:20+00:00"
         },
         {
             "name": "ixocreate/filesystem",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/filesystem.git",
-                "reference": "f2184d8ddef11be1266fa5a9ca96d1d50b2e4af3"
+                "reference": "10ad839fe8ac725dd53ad99247ca49fbd88cb0dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/filesystem/zipball/f2184d8ddef11be1266fa5a9ca96d1d50b2e4af3",
-                "reference": "f2184d8ddef11be1266fa5a9ca96d1d50b2e4af3",
+                "url": "https://api.github.com/repos/ixocreate/filesystem/zipball/10ad839fe8ac725dd53ad99247ca49fbd88cb0dd",
+                "reference": "10ad839fe8ac725dd53ad99247ca49fbd88cb0dd",
                 "shasum": ""
             },
             "require": {
+                "ixocreate/contract": "=1.0.0-alpha1",
                 "league/flysystem": "^1.0",
                 "php": "^7.1"
             },
             "require-dev": {
                 "ixocreate/coding-standard": "^1.0",
-                "ixocreate/contract": "dev-develop",
                 "php-coveralls/php-coveralls": "^2.0",
                 "phpunit/phpunit": "^6.0.6"
             },
@@ -2369,24 +2370,24 @@
                 }
             ],
             "description": "IXOCREATE filesystem integration",
-            "time": "2018-12-28T17:00:35+00:00"
+            "time": "2019-01-10T13:44:50+00:00"
         },
         {
             "name": "ixocreate/filter",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/filter.git",
-                "reference": "6e53f9a3dac0bada06a050295d3d8b64f7223f53"
+                "reference": "1b89ac3c6066ae6415280165b788773cbbfd2035"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/filter/zipball/6e53f9a3dac0bada06a050295d3d8b64f7223f53",
-                "reference": "6e53f9a3dac0bada06a050295d3d8b64f7223f53",
+                "url": "https://api.github.com/repos/ixocreate/filter/zipball/1b89ac3c6066ae6415280165b788773cbbfd2035",
+                "reference": "1b89ac3c6066ae6415280165b788773cbbfd2035",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/contract": "=1.0.0-alpha1",
                 "php": "^7.1"
             },
             "require-dev": {
@@ -2410,47 +2411,47 @@
                 }
             ],
             "description": "Filter of IXOCREATE",
-            "time": "2018-12-28T17:10:43+00:00"
+            "time": "2019-01-13T13:29:07+00:00"
         },
         {
             "name": "ixocreate/framework",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/framework.git",
-                "reference": "570482291b222ab95a569344b5c8d944aa99895c"
+                "reference": "4d8a5050ec12243d570efb73522074a31763ed80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/framework/zipball/570482291b222ab95a569344b5c8d944aa99895c",
-                "reference": "570482291b222ab95a569344b5c8d944aa99895c",
+                "url": "https://api.github.com/repos/ixocreate/framework/zipball/4d8a5050ec12243d570efb73522074a31763ed80",
+                "reference": "4d8a5050ec12243d570efb73522074a31763ed80",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/application-console": "dev-develop",
-                "ixocreate/application-http": "dev-develop",
-                "ixocreate/asset": "dev-develop",
-                "ixocreate/cms": "dev-develop",
-                "ixocreate/command-bus": "dev-develop",
-                "ixocreate/command-bus-filter": "dev-develop",
-                "ixocreate/command-bus-validation": "dev-develop",
-                "ixocreate/common-types": "dev-develop",
-                "ixocreate/config": "dev-develop",
-                "ixocreate/database": "dev-develop",
-                "ixocreate/entity": "dev-develop",
-                "ixocreate/event": "dev-develop",
-                "ixocreate/filesystem": "dev-develop",
-                "ixocreate/filter": "dev-develop",
-                "ixocreate/intl": "dev-develop",
-                "ixocreate/media": "dev-develop",
-                "ixocreate/project-uri": "dev-develop",
-                "ixocreate/resource": "dev-develop",
-                "ixocreate/scheduler": "dev-develop",
-                "ixocreate/schema": "dev-develop",
-                "ixocreate/servicemanager": "dev-develop",
-                "ixocreate/template": "dev-develop",
-                "ixocreate/translation": "dev-develop",
-                "ixocreate/validation": "dev-develop",
+                "ixocreate/application-console": "=1.0.0-alpha1",
+                "ixocreate/application-http": "=1.0.0-alpha1",
+                "ixocreate/asset": "=1.0.0-alpha1",
+                "ixocreate/cms": "=1.0.0-alpha1",
+                "ixocreate/command-bus": "=1.0.0-alpha1",
+                "ixocreate/command-bus-filter": "=1.0.0-alpha1",
+                "ixocreate/command-bus-validation": "=1.0.0-alpha1",
+                "ixocreate/common-types": "=1.0.0-alpha1",
+                "ixocreate/config": "=1.0.0-alpha1",
+                "ixocreate/database": "=1.0.0-alpha1",
+                "ixocreate/entity": "=1.0.0-alpha1",
+                "ixocreate/event": "=1.0.0-alpha1",
+                "ixocreate/filesystem": "=1.0.0-alpha1",
+                "ixocreate/filter": "=1.0.0-alpha1",
+                "ixocreate/intl": "=1.0.0-alpha1",
+                "ixocreate/media": "=1.0.0-alpha1",
+                "ixocreate/project-uri": "=1.0.0-alpha1",
+                "ixocreate/resource": "=1.0.0-alpha1",
+                "ixocreate/scheduler": "=1.0.0-alpha1",
+                "ixocreate/schema": "=1.0.0-alpha1",
+                "ixocreate/servicemanager": "=1.0.0-alpha1",
+                "ixocreate/template": "=1.0.0-alpha1",
+                "ixocreate/translation": "=1.0.0-alpha1",
+                "ixocreate/validation": "=1.0.0-alpha1",
                 "php": "^7.1"
             },
             "require-dev": {
@@ -2474,25 +2475,25 @@
                 }
             ],
             "description": "IXOCREATE framework composition",
-            "time": "2018-12-28T17:00:57+00:00"
+            "time": "2019-01-15T12:14:48+00:00"
         },
         {
             "name": "ixocreate/intl",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/intl.git",
-                "reference": "04184b602e75a12ccb8528e65c2048d3a4fa14f0"
+                "reference": "7945b9ca111c646590073899cb0acd21684948c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/intl/zipball/04184b602e75a12ccb8528e65c2048d3a4fa14f0",
-                "reference": "04184b602e75a12ccb8528e65c2048d3a4fa14f0",
+                "url": "https://api.github.com/repos/ixocreate/intl/zipball/7945b9ca111c646590073899cb0acd21684948c7",
+                "reference": "7945b9ca111c646590073899cb0acd21684948c7",
                 "shasum": ""
             },
             "require": {
                 "ext-intl": "*",
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/contract": "=1.0.0-alpha1",
                 "php": "^7.1"
             },
             "require-dev": {
@@ -2516,34 +2517,34 @@
                 }
             ],
             "description": "Internationalization integration for IXOCREATE",
-            "time": "2018-12-28T17:44:38+00:00"
+            "time": "2019-01-10T13:00:08+00:00"
         },
         {
             "name": "ixocreate/media",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/media.git",
-                "reference": "1252db55b362d09eed71cfb430e76aa8e8851477"
+                "reference": "58413b8d2c43049ceab133bda4579a171cf7276f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/media/zipball/1252db55b362d09eed71cfb430e76aa8e8851477",
-                "reference": "1252db55b362d09eed71cfb430e76aa8e8851477",
+                "url": "https://api.github.com/repos/ixocreate/media/zipball/58413b8d2c43049ceab133bda4579a171cf7276f",
+                "reference": "58413b8d2c43049ceab133bda4579a171cf7276f",
                 "shasum": ""
             },
             "require": {
                 "cocur/slugify": "^3.1",
                 "firebase/php-jwt": "^5.0",
                 "intervention/image": "^2.4.1",
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/contract": "=1.0.0-alpha1",
                 "php": "^7.1",
                 "symfony/asset": "^4.1"
             },
             "require-dev": {
                 "ext-gd": ">=2.0",
                 "ext-imagick": "*",
-                "ixocreate/admin": "dev-develop",
+                "ixocreate/admin": "=1.0.0-alpha1",
                 "ixocreate/coding-standard": "^1.0",
                 "phpunit/phpunit": "^6.0.6"
             },
@@ -2563,33 +2564,31 @@
                 }
             ],
             "description": "IXOCREATE Media",
-            "time": "2019-01-07T17:56:34+00:00"
+            "time": "2019-01-15T11:33:17+00:00"
         },
         {
             "name": "ixocreate/project-uri",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/project-uri.git",
-                "reference": "30822c868d3257ae8ddc11de596e6cb1213b1129"
+                "reference": "8a27999032fc0a7e1cf2d9e5b117a0eb18a608ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/project-uri/zipball/30822c868d3257ae8ddc11de596e6cb1213b1129",
-                "reference": "30822c868d3257ae8ddc11de596e6cb1213b1129",
+                "url": "https://api.github.com/repos/ixocreate/project-uri/zipball/8a27999032fc0a7e1cf2d9e5b117a0eb18a608ad",
+                "reference": "8a27999032fc0a7e1cf2d9e5b117a0eb18a608ad",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/config": "=1.0.0-alpha1",
+                "ixocreate/contract": "=1.0.0-alpha1",
                 "php": "^7.1",
-                "psr/http-message": "^1.0"
+                "zendframework/zend-diactoros": "^1.7"
             },
             "require-dev": {
-                "http-interop/http-server-middleware": "^1.0",
-                "ixocreate/application": "dev-develop",
                 "ixocreate/coding-standard": "^1.0",
-                "phpunit/phpunit": "^6.0.6",
-                "zendframework/zend-diactoros": "^1.7"
+                "phpunit/phpunit": "^6.0.6"
             },
             "type": "library",
             "autoload": {
@@ -2607,24 +2606,24 @@
                 }
             ],
             "description": "Library to manage the project URI",
-            "time": "2018-12-28T17:13:08+00:00"
+            "time": "2019-01-10T21:25:49+00:00"
         },
         {
             "name": "ixocreate/resource",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/resource.git",
-                "reference": "37b94617f531d3058ff82058eaf6087e248d6e6b"
+                "reference": "29ecda4876f313ddb8151ddc044f3af160cc9e1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/resource/zipball/37b94617f531d3058ff82058eaf6087e248d6e6b",
-                "reference": "37b94617f531d3058ff82058eaf6087e248d6e6b",
+                "url": "https://api.github.com/repos/ixocreate/resource/zipball/29ecda4876f313ddb8151ddc044f3af160cc9e1e",
+                "reference": "29ecda4876f313ddb8151ddc044f3af160cc9e1e",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/contract": "=1.0.0-alpha1",
                 "php": "^7.1"
             },
             "require-dev": {
@@ -2648,26 +2647,26 @@
                 }
             ],
             "description": "IXOCREATE Resource",
-            "time": "2018-12-28T17:13:28+00:00"
+            "time": "2019-01-12T20:31:54+00:00"
         },
         {
             "name": "ixocreate/scheduler",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/scheduler.git",
-                "reference": "865f8b86154488e1231dd200e349f5237641e929"
+                "reference": "edac2f09d1b9bc4da1fa67e761057db6fdd34c19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/scheduler/zipball/865f8b86154488e1231dd200e349f5237641e929",
-                "reference": "865f8b86154488e1231dd200e349f5237641e929",
+                "url": "https://api.github.com/repos/ixocreate/scheduler/zipball/edac2f09d1b9bc4da1fa67e761057db6fdd34c19",
+                "reference": "edac2f09d1b9bc4da1fa67e761057db6fdd34c19",
                 "shasum": ""
             },
             "require": {
                 "cocur/background-process": "^0.7.0",
                 "dragonmantank/cron-expression": "^2.1",
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/contract": "=1.0.0-alpha1",
                 "php": "^7.1",
                 "symfony/lock": "^4.1"
             },
@@ -2692,29 +2691,28 @@
                 }
             ],
             "description": "IXOCREATE scheduler integration",
-            "time": "2019-01-02T10:26:30+00:00"
+            "time": "2019-01-10T13:38:26+00:00"
         },
         {
             "name": "ixocreate/schema",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/schema.git",
-                "reference": "7b50645a1fb03f434a06ad463da8a9c8d556875a"
+                "reference": "7c623e121932bace85e32f70a55aef3a4ffaaab1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/schema/zipball/7b50645a1fb03f434a06ad463da8a9c8d556875a",
-                "reference": "7b50645a1fb03f434a06ad463da8a9c8d556875a",
+                "url": "https://api.github.com/repos/ixocreate/schema/zipball/7c623e121932bace85e32f70a55aef3a4ffaaab1",
+                "reference": "7c623e121932bace85e32f70a55aef3a4ffaaab1",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/contract": "=1.0.0-alpha1",
                 "php": "^7.1"
             },
             "require-dev": {
                 "ixocreate/coding-standard": "^1.0.1",
-                "ixocreate/common-types": "dev-develop",
                 "php-coveralls/php-coveralls": "^2.0",
                 "phpunit/phpunit": "^6.0.6"
             },
@@ -2734,24 +2732,24 @@
                 }
             ],
             "description": "Schema implementation for IXOCREATE",
-            "time": "2018-12-28T17:13:48+00:00"
+            "time": "2019-01-15T11:51:36+00:00"
         },
         {
             "name": "ixocreate/servicemanager",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/servicemanager.git",
-                "reference": "0de0fdf479803a47cfc92763274858575a7cec84"
+                "reference": "f4ce49967f4c32a2650dcbfb72b96ec1e424d422"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/servicemanager/zipball/0de0fdf479803a47cfc92763274858575a7cec84",
-                "reference": "0de0fdf479803a47cfc92763274858575a7cec84",
+                "url": "https://api.github.com/repos/ixocreate/servicemanager/zipball/f4ce49967f4c32a2650dcbfb72b96ec1e424d422",
+                "reference": "f4ce49967f4c32a2650dcbfb72b96ec1e424d422",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/contract": "=1.0.0-alpha1",
                 "ocramius/proxy-manager": "=2.1.1",
                 "php": "^7.1",
                 "zendframework/zend-code": "^3.3",
@@ -2779,30 +2777,30 @@
                 }
             ],
             "description": "A psr-11 container library",
-            "time": "2019-01-07T17:34:00+00:00"
+            "time": "2019-01-10T13:54:40+00:00"
         },
         {
             "name": "ixocreate/template",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/template.git",
-                "reference": "067f78fb5d74597387d2d261f7bd787beae3d915"
+                "reference": "1b0ec73f1b1c35763bac18aa8770db50a794e854"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/template/zipball/067f78fb5d74597387d2d261f7bd787beae3d915",
-                "reference": "067f78fb5d74597387d2d261f7bd787beae3d915",
+                "url": "https://api.github.com/repos/ixocreate/template/zipball/1b0ec73f1b1c35763bac18aa8770db50a794e854",
+                "reference": "1b0ec73f1b1c35763bac18aa8770db50a794e854",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/contract": "dev-develop",
+                "ixocreate/contract": "=1.0.0-alpha1",
+                "ixocreate/servicemanager": "=1.0.0-alpha1",
                 "php": "^7.1",
                 "zendframework/zend-expressive-platesrenderer": "^2.0"
             },
             "require-dev": {
                 "ixocreate/coding-standard": "^1.0.0",
-                "ixocreate/servicemanager": "dev-develop",
                 "php-coveralls/php-coveralls": "^2.0",
                 "phpunit/phpunit": "^6.0.6"
             },
@@ -2822,28 +2820,28 @@
                 }
             ],
             "description": "Plates integration for IXOCREATE",
-            "time": "2018-12-28T17:14:38+00:00"
+            "time": "2019-01-12T20:26:43+00:00"
         },
         {
             "name": "ixocreate/translation",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/translation.git",
-                "reference": "76df1c773548ad17406a8939746476d4926a86aa"
+                "reference": "f1e0bf68f575a28a2064615a804b6bf278b4996d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/translation/zipball/76df1c773548ad17406a8939746476d4926a86aa",
-                "reference": "76df1c773548ad17406a8939746476d4926a86aa",
+                "url": "https://api.github.com/repos/ixocreate/translation/zipball/f1e0bf68f575a28a2064615a804b6bf278b4996d",
+                "reference": "f1e0bf68f575a28a2064615a804b6bf278b4996d",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/common-types": "dev-develop",
-                "ixocreate/contract": "dev-develop",
-                "ixocreate/database": "dev-develop",
-                "ixocreate/entity": "dev-develop",
-                "ixocreate/intl": "dev-develop",
+                "ixocreate/common-types": "=1.0.0-alpha1",
+                "ixocreate/contract": "=1.0.0-alpha1",
+                "ixocreate/database": "=1.0.0-alpha1",
+                "ixocreate/entity": "=1.0.0-alpha1",
+                "ixocreate/intl": "=1.0.0-alpha1",
                 "nikic/php-parser": "^4.0",
                 "php": "^7.1",
                 "symfony/translation": "^4.1"
@@ -2869,25 +2867,25 @@
                 }
             ],
             "description": "Translation package for IXOCREATE",
-            "time": "2019-01-07T17:56:59+00:00"
+            "time": "2019-01-15T12:03:00+00:00"
         },
         {
             "name": "ixocreate/validation",
-            "version": "dev-develop",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixocreate/validation.git",
-                "reference": "a0f5ac9c8321549d188501966daaa48f2e8bffe2"
+                "reference": "8adde96aad469f6140ad18f81354fcd5441c9b5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixocreate/validation/zipball/a0f5ac9c8321549d188501966daaa48f2e8bffe2",
-                "reference": "a0f5ac9c8321549d188501966daaa48f2e8bffe2",
+                "url": "https://api.github.com/repos/ixocreate/validation/zipball/8adde96aad469f6140ad18f81354fcd5441c9b5a",
+                "reference": "8adde96aad469f6140ad18f81354fcd5441c9b5a",
                 "shasum": ""
             },
             "require": {
-                "ixocreate/contract": "dev-develop",
-                "ixocreate/entity": "dev-develop",
+                "ixocreate/contract": "=1.0.0-alpha1",
+                "ixocreate/entity": "=1.0.0-alpha1",
                 "php": "^7.1"
             },
             "require-dev": {
@@ -2912,7 +2910,7 @@
                 }
             ],
             "description": "Validation of IXOCREATE",
-            "time": "2018-12-28T17:15:23+00:00"
+            "time": "2019-01-13T13:19:55+00:00"
         },
         {
             "name": "league/flysystem",
@@ -3156,16 +3154,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.1.1",
+            "version": "v4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "8aae5b59b83bb4d0dbf07b0a835f2680a658f610"
+                "reference": "594bcae1fc0bccd3993d2f0d61a018e26ac2865a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8aae5b59b83bb4d0dbf07b0a835f2680a658f610",
-                "reference": "8aae5b59b83bb4d0dbf07b0a835f2680a658f610",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/594bcae1fc0bccd3993d2f0d61a018e26ac2865a",
+                "reference": "594bcae1fc0bccd3993d2f0d61a018e26ac2865a",
                 "shasum": ""
             },
             "require": {
@@ -3181,7 +3179,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "4.2-dev"
                 }
             },
             "autoload": {
@@ -3203,7 +3201,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2018-12-26T11:32:39+00:00"
+            "time": "2019-01-12T16:31:37+00:00"
         },
         {
             "name": "ocramius/package-versions",
@@ -6899,10 +6897,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "ixocreate/admin": 20,
-        "ixocreate/framework": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
