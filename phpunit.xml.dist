@@ -12,11 +12,10 @@
          timeoutForSmallTests="1"
          timeoutForMediumTests="10"
          timeoutForLargeTests="60"
-         strict="true"
          verbose="false"
 >
     <testsuites>
-        <testsuite name="application test suite">
+        <testsuite name="IXOCREATE Test Suite">
             <directory>./tests/src</directory>
         </testsuite>
     </testsuites>
