@@ -1,9 +1,9 @@
 <p align="center"><img src="https://ixocreate.github.io/img/ixocreate/ixocreate-logo.svg"></p>
 
 <p align="center">
-[![Packagist](https://img.shields.io/packagist/v/ixocreate/:package_name.svg)](https://packagist.org/packages/ixocreate/:package_name)
-[![PHP Version](https://img.shields.io/packagist/php-v/ixocreate/:package_name.svg)](https://packagist.org/packages/ixocreate/:package_name)
-[![License](https://img.shields.io/github/license/ixocreate/:package_name.svg)](LICENSE)
+<a href="https://packagist.org/packages/ixocreate/ixocreate"><img src="https://img.shields.io/packagist/v/ixocreate/ixocreate.svg" alt="Version"></a>
+<a href="https://packagist.org/packages/ixocreate/ixocreate"><img src="https://img.shields.io/packagist/php-v/ixocreate/ixocreate.svg" alt="PHP Version"></a>
+<a href="https://github.com/ixocreate/ixocreate/blob/master/LICENSE"><img src="https://img.shields.io/github/license/ixocreate/ixocreate.svg" alt="License"></a>
 </p>
 
 # IXOCREATE
