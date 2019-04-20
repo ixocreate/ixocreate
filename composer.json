@@ -1,16 +1,13 @@
 {
     "name": "ixocreate/ixocreate",
-    "description": "ixocreate/ixocreate",
+    "description": "IXOCREATE",
     "license": "MIT",
     "type": "project",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "php": "^7.1",
-        "ixocreate/admin": "dev-develop",
-        "ixocreate/framework": "dev-develop",
-        "neomerx/cors-psr7": "^1.0",
-        "swiftmailer/swiftmailer": "^6.0"
+        "ixocreate/framework": "^0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.0"

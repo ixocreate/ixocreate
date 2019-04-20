@@ -3,6 +3,6 @@
 
 (function () {
     require_once 'vendor/autoload.php';
-    $httpApplication = new \Ixocreate\ApplicationHttp\HttpApplication("bootstrap");
+    $httpApplication = new \Ixocreate\Application\Http\HttpApplication("bootstrap");
     $httpApplication->run();
 })();
