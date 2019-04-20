@@ -3,6 +3,6 @@
 \chdir(__DIR__);
 (function() {
     require_once 'vendor/autoload.php';
-    $httpApplication = new \Ixocreate\ApplicationConsole\ConsoleApplication("bootstrap");
+    $httpApplication = new \Ixocreate\Application\Console\ConsoleApplication("bootstrap");
     $httpApplication->run();
 })();
