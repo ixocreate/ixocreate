@@ -1,24 +1,34 @@
-<p align="center"><img src="https://ixocreate.github.io/assets/img/ixocreate-logo.svg"></p>
+<p align="center"><img src="https://ixocreate.github.io/img/ixocreate/ixocreate-logo.svg"></p>
 
 <p align="center">
-<a href="https://packagist.org/packages/ixocreate/ixocreate"><img src="https://poser.pugx.org/ixocreate/ixocreate/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/ixocreate/ixocreate"><img src="https://poser.pugx.org/ixocreate/ixocreate/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/ixocreate/ixocreate"><img src="https://poser.pugx.org/ixocreate/ixocreate/license.svg" alt="License"></a>
+<a href="https://packagist.org/packages/ixocreate/ixocreate"><img src="https://img.shields.io/packagist/v/ixocreate/ixocreate.svg" alt="Version"></a>
+<a href="https://packagist.org/packages/ixocreate/ixocreate"><img src="https://img.shields.io/packagist/php-v/ixocreate/ixocreate.svg" alt="PHP Version"></a>
+<a href="https://github.com/ixocreate/ixocreate/blob/master/LICENSE"><img src="https://img.shields.io/github/license/ixocreate/ixocreate.svg" alt="License"></a>
 </p>
 
 # IXOCREATE
 
-[About]
+An application framework based on Zend Expressive.
 
-[Documentation]
+## Installation
 
-## Contributing
+Install the package via composer:
 
-[Contribution Guide]
+```sh
+composer create-project --prefer-dist ixocreate/ixocreate my-app
+```
+
+## Documentation
+
+Learn more about IXOCREATE by reading its [Documentation](https://ixocreate.github.io/).
+
+## Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
 ## Security Vulnerabilities
 
-[Security Address]
+If you discover security vulnerabilities, please address issues directly to opensource@ixocreate.com via e-mail.
 
 ## License
 

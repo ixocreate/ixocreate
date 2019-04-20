@@ -1,19 +1,16 @@
 {
     "name": "ixocreate/ixocreate",
-    "description": "ixocreate/ixocreate",
+    "description": "IXOCREATE",
     "license": "MIT",
     "type": "project",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "php": "^7.1",
-        "ixocreate/admin": "=1.0.0-alpha1",
-        "ixocreate/framework": "=1.0.0-alpha1",
-        "neomerx/cors-psr7": "^1.0",
-        "swiftmailer/swiftmailer": "^6.0"
+        "ixocreate/framework": "^0.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6.0.6"
+        "phpunit/phpunit": "^7.0"
     },
     "autoload": {
         "psr-4": {
