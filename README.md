@@ -8,7 +8,7 @@
 
 # IXOCREATE
 
-An application framework based on Zend Expressive.
+An application framework.
 
 ## Installation
 
