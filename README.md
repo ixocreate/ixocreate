@@ -8,7 +8,7 @@
 
 # IXOCREATE
 
-An application framework.
+A Content Management Framework by @ixolit.
 
 ## Installation
 
