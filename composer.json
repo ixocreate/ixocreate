@@ -18,6 +18,11 @@
             "Admin\\": "src/Admin/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/src/"
+        }
+    },
     "config": {
         "sort-packages": true
     }
