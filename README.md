@@ -1,4 +1,4 @@
-<p align="center"><img src="https://ixocreate.github.io/img/ixocreate/ixocreate-logo.svg"></p>
+<p align="center"><img src="https://ixocreate.github.io/current/img/brand/ixocreate/ixocreate-logo.svg"></p>
 
 <p align="center">
 <a href="https://packagist.org/packages/ixocreate/ixocreate"><img src="https://img.shields.io/packagist/v/ixocreate/ixocreate.svg" alt="Version"></a>
