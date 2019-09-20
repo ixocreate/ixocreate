@@ -1,0 +1,7 @@
+<?php $this->layout('layout::default'); ?>
+<img src="<?= $this->asset('https://ixocreate.github.io/current/img/brand/ixocreate/ixocreate-logo.svg') ?>" alt="">
+<?php if (!$setupRun): ?>
+  <div class="alert text-dark">
+      <?= $this->app() ?>
+  </div>
+<?php endif ?>
