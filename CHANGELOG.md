@@ -1,6 +1,14 @@
 # Release Notes
 
-## [Unreleased](https://github.com/ixocreate/ixocreate/compare/v0.3.1...develop)
+## [Unreleased](https://github.com/ixocreate/ixocreate/compare/v0.4.0...develop)
+
+## [v0.4.0 (2019-09-24)](https://github.com/ixocreate/ixocreate/compare/0.3.1...0.4.0)
+### Added
+- Example Action, Console Command & Template Extension
+- `app:setup` command
+- env file support
+### Changed
+- Upgrade to Framework v0.4
 
 ## [v0.3.1 (2019-06-27)](https://github.com/ixocreate/ixocreate/compare/0.3.0...0.3.1)
 ### Added
