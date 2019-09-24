@@ -26,7 +26,7 @@ class WelcomeAction implements MiddlewareInterface
         $handler->handle($request);
 
         return new HtmlResponse($this->templateRenderer->render('page::welcome', [
-            'setupRun' => !empty(\getenv('ADMIN_SECRET')),
+            'adminSecretReady' => !empty(\getenv('ADMIN_SECRET')),
         ]));
     }
 }

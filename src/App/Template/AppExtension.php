@@ -34,7 +34,7 @@ class AppExtension implements ExtensionInterface
                 return $this->applicationUri->getMainUri();
                 break;
             default:
-                return 'Run <code>php ixocreate setup</code> to complete your installation!';
+                return 'Run <code>php ixocreate app:setup</code> to complete your installation.';
                 break;
         }
     }

@@ -27,7 +27,7 @@ php -S localhost:8000 -t public serve.php
 Complete the setup:
 
 ```sh
-php ixocreate setup
+php ixocreate app:setup
 ```
 
 ## Documentation
