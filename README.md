@@ -15,7 +15,19 @@ A Content Management Framework by [IXOLIT](https://ixolit.com).
 Install the package via composer:
 
 ```sh
-composer create-project --prefer-dist ixocreate/ixocreate my-app
+composer create-project --prefer-dist ixocreate/ixocreate my-app && cd my-app
+```
+
+Verify installation:
+
+```sh
+php -S localhost:8000 -t public serve.php
+```
+
+Complete the setup:
+
+```sh
+php ixocreate app:setup
 ```
 
 ## Documentation

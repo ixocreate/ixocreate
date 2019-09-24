@@ -12,7 +12,9 @@ nbproject
 /node_modules
 /public/assets
 /public/media
+/resources/generated
 /vendor
+.env
 .php_cs.cache
 .phpunit.result.cache
 composer.phar
